@@ -40,11 +40,71 @@
     bottom: 350px;
     width: 410px;
     height: 35px;
-    z-index:6;
+    z-index: 6;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 29px;
     line-height: 120%;
     color: #4B47FF;
+}
+
+.letstalkbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 133px;
+    height: 49px;
+    left: 170px;
+    top: 600px;
+
+    /* Style 1/style 1 b -blues/blues 2 */
+
+    background: #00BEE8;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.iconline {
+    position: absolute;
+    top:770px;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    position: absolute;
+    top:650px;
+    left:60px;
+    right:0;
+    bottom:0;
+}
+
+
+.myPicture {
+    width: 444px;
+    height: 450px;
+    position: absolute;
+    top:920px;
+    left:15px;
+    right:0;
+    bottom:0;
+    z-index:15;
 }
