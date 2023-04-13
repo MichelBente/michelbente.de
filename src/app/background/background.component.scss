@@ -1,0 +1,49 @@
+.background {
+    width: 400px;
+    height: 600px;
+    z-index: 5;
+}
+
+.blurtop {
+    position: absolute;
+    height: 289.95px;
+    left: -200px;
+    right: 0px;
+    top: 159px;
+    transform: rotate(45deg);
+}
+
+.blurtop1 {
+    position: absolute;
+    height: 289.95px;
+    left: 300px;
+    right: 0px;
+    top: -30px;
+    transform: rotate(45deg);
+}
+
+.blurtop2 {
+    position: absolute;
+    height: 289.95px;
+    left: -200px;
+    right: 0px;
+    top: 159px;
+    transform: rotate(45deg);
+}
+
+.blurbottom {
+    position: absolute;
+    height: 273.53px;
+    left: 57.95%;
+    right: -41.05%;
+    top: 450.5px;
+}
+
+
+.blurbottom2 {
+    position: absolute;
+    height: 273.53px;
+    left: -27.95%;
+    right: 81.05%;
+    top: 850.5px;
+}
