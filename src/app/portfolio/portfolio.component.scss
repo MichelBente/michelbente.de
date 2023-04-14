@@ -1,0 +1,29 @@
+.portfolio-content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 3539px;
+
+    .portfolio-headline {
+        position: absolute;
+        width: 1950px;
+        height: 54px;
+        left: -300px;
+        top: 0px;
+        right:0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .line3 {
+        padding-bottom: 10px;
+        
+
+    }
+}
