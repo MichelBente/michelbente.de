@@ -2,14 +2,15 @@
     display: flex;
     align-items: center;
     position: absolute;
-    left: 0px;
+    left: -80px;
     top: 3539px;
+    right:0px;
+    bottom:0px;
 
+}
     .portfolio-headline {
         position: absolute;
-        width: 1950px;
-        height: 54px;
-        left: -300px;
+        left: -480px;
         top: 0px;
         right:0px;
         font-family: 'Poppins';
@@ -23,7 +24,9 @@
 
     .line3 {
         padding-bottom: 10px;
-        
+        padding-right: 40px;
 
     }
+.mockups {
+    
 }
