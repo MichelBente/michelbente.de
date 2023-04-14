@@ -1,0 +1,98 @@
+.headline-section {
+    position: absolute;
+    width: 226px;
+    height: 54px;
+    left: 25px;
+    top: 1539px;
+    z-index: 17;
+    color: #FFFFFF;
+
+
+    .headline-aboutme {
+        position: absolute;
+        top: -150px;
+        width: 226px;
+        height: 54px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 120%;
+        z-index: 18;
+        color: #FFFFFF;
+    }
+}
+
+.text {
+    position: absolute;
+    top: -30px;
+    width: 338px;
+    height: 133px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    z-index: 18;
+    color: #FFFFFF;
+}
+
+.personal-stuff {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+
+    .lightbulbpart {
+        display: flex;
+        gap: 100px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .puzzlepart {
+        display: flex;
+        gap: 100px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .imagepersonalstuff {
+        width: 34.47px;
+        height: 50px;
+    }
+
+    .imagepersonalstuff2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .text2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        z-index: 18;
+        color: #FFFFFF;
+        padding-left: 15px;
+    }
+
+    .text3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        z-index: 18;
+        color: #FFFFFF;
+    }
+}

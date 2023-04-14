@@ -54,7 +54,17 @@
     left: -37.95%;
     right: 81.05%;
     top: 900.5px;
-transform: rotate(125deg);
-width: 800px !important;
-height: 600px !important;
+    transform: rotate(125deg);
+    width: 800px !important;
+    height: 600px !important;
+}
+
+.shapes {
+    position: absolute;
+    left: -0.14%;
+    right: 81.05%;
+    top: 1150.5px;
+    z-index:16;
+    width: 700px;
+    height: 1078px;
 }
