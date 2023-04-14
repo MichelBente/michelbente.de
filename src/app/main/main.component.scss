@@ -1,3 +1,16 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200;
+    left: 110px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+
 .iam {
     position: absolute;
     top: 200;
@@ -61,7 +74,7 @@
     width: 133px;
     height: 49px;
     left: 170px;
-    top: 600px;
+    top: -280px;
 
     /* Style 1/style 1 b -blues/blues 2 */
 
@@ -78,9 +91,9 @@
 
 .iconline {
     position: absolute;
-    top:770px;
-    left:0;
-    right:0;
+    top:0px;
+    left: -120px;
+    right:170;
     bottom:0;
 }
 
@@ -89,10 +102,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:30px;
+    gap:50px;
     position: absolute;
-    top:650px;
-    left:60px;
+    top:0px;
+    left:170px;
     right:0;
     bottom:0;
 }
@@ -102,7 +115,7 @@
     width: 444px;
     height: 450px;
     position: absolute;
-    top:920px;
+    top:170px;
     left:15px;
     right:0;
     bottom:0;
