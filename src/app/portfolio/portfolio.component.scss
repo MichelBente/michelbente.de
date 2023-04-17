@@ -1,32 +1,58 @@
 .portfolio-content {
-    display: flex;
-    align-items: center;
     position: absolute;
-    left: -80px;
-    top: 3539px;
-    right:0px;
-    bottom:0px;
-
+    top: 3150px;
+    left: 0px;
+    display: flex;
+    color: #FFFFFF;
+    z-index: 20;
 }
-    .portfolio-headline {
-        position: absolute;
-        left: -480px;
-        top: 0px;
-        right:0px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 45px;
-        line-height: 120%;
-        text-align: center;
-        color: #FFFFFF;
-    }
 
-    .line3 {
-        padding-bottom: 10px;
-        padding-right: 40px;
+.portfolio-headline {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    right: 0px;
+    bottom: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 120%;
+    z-index: 21;
+    color: #FFFFFF;
+    justify-content: center;
+}
 
-    }
+
+.line3 {
+    padding-bottom: 10px;
+    padding-right: 0px;
+    position: absolute;
+    top: 28px;
+    left: -60px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.textPortfolio {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    right: 0px;
+    bottom: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    width: 250px;
+}
+
 .mockups {
-    
+    position: absolute;
+    left: 20px;
+    top: 140px;
+    right: 0px;
+    bottom: 0px;
 }
