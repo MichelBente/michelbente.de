@@ -1,3 +1,4 @@
+@media (min-height: 390px) {
 .footer-section {
     position: absolute;
     top: 5200px;
@@ -69,4 +70,81 @@
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;
+}
+}
+
+@media (min-height: 1024px) {
+    .footer-section {
+        position: absolute;
+        top: 5400px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        display: flex;
+        color: #FFFFFF;
+        z-index: 20;
+        width: 768px;
+        border: 2px solid #05A9E8;
+    
+    }
+    
+    .line7 {
+        width: 768px;
+        border: 2px solid #05A9E8;
+    }
+    
+    .logofooter {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 0px;
+        left: 215px;
+        right: 0px;
+        bottom: 0px;
+    }
+    
+    .cc {
+        position: absolute;
+        top: 250px;
+        left: 220px;
+        right: 0px;
+        bottom: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+    
+    .icon-container2 {
+        position: absolute;
+        top: 330px;
+        left: 245px;
+        right: 0px;
+        bottom: 0px;
+        width: 250px;
+    }
+    
+    .iconset2 {
+        gap: 30px;
+        margin: 20px;
+    }
+    
+    .impressum {
+        position: absolute;
+        width: 390px;
+        height: 81px;
+        left: 300px;
+        bottom: 0px;
+        top: 440px;
+        right: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
 }

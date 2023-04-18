@@ -1,3 +1,4 @@
+@media (min-width: 390px) {
 .headline-section {
     position: absolute;
     width: 226px;
@@ -95,4 +96,106 @@
         z-index: 18;
         color: #FFFFFF;
     }
+}
+}
+
+@media (min-height: 1024px) {
+    .headline-section {
+        position: absolute;
+        width: 426px;
+        height: 154px;
+        left: 120px;
+        top: 1789px;
+        z-index: 17;
+        color: #FFFFFF;
+    
+    
+        .headline-aboutme {
+            position: absolute;
+            top: -150px;
+            width: 326px;
+            height: 54px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 120%;
+            z-index: 18;
+            color: #FFFFFF;
+        }
+    }
+    
+    .text {
+        position: absolute;
+        top: -30px;
+        width: 438px;
+        height: 133px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 120%;
+        z-index: 18;
+        color: #FFFFFF;
+    }
+    
+    .personal-stuff {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 120%;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+    
+        .lightbulbpart {
+            display: flex;
+            gap: 100px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 80px;
+        }
+    
+        .puzzlepart {
+            display: flex;
+            gap: 100px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+        }
+    
+        .imagepersonalstuff {
+            width: 54.47px;
+            height: 70px;
+        }
+    
+        .imagepersonalstuff2 {
+            width: 70px;
+            height: 70px;
+        }
+    
+        .text2 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 120%;
+            z-index: 18;
+            color: #FFFFFF;
+            padding-left: 15px;
+        }
+    
+        .text3 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 120%;
+            z-index: 18;
+            color: #FFFFFF;
+        }
+    } 
 }

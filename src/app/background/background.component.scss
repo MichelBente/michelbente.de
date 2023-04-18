@@ -1,3 +1,4 @@
+@media (min-width: 390px) {
 .background {
     width: 400px;
     height: 600px;
@@ -100,4 +101,110 @@
     z-index:16;
     width: 700px;
     height: 400px;
+}}
+
+@media (min-height: 1024px) {
+    .background {
+        width: 400px;
+        height: 600px;
+        z-index: 5;
+    }
+    
+    .blurtop {
+        position: absolute;
+        height: 289.95px;
+        left: -200px;
+        right: 0px;
+        top: 159px;
+        transform: rotate(45deg);
+    }
+    
+    .blurtop1 {
+        position: absolute;
+        height: 289.95px;
+        left: 300px;
+        right: 0px;
+        top: -30px;
+        transform: rotate(45deg);
+    }
+    
+    .blurtop2 {
+        position: absolute;
+        height: 289.95px;
+        left: -200px;
+        right: 0px;
+        top: 159px;
+        transform: rotate(45deg);
+    }
+    
+    .blurbottom {
+        position: absolute;
+        height: 273.53px;
+        left: 80.95%;
+        right: -61.05%;
+        top: 450.5px;
+       
+    }
+    
+    .blurbottom2 {
+        position: absolute;
+        height: 273.53px;
+        left: -27.95%;
+        right: 81.05%;
+        top: 850.5px;
+    }
+    
+    .blurbottom3 {
+        position: absolute;
+        height: 273.53px;
+        left: -0.95%;
+        right: 81.05%;
+        top: 1100.5px;
+        transform: rotate(125deg);
+        width: 800px !important;
+        height: 600px !important;
+    }
+    
+    .blurbottom4 {
+        position: absolute;
+        height: 273.53px;
+        left: 70.95%;
+        right: 0.05%;
+        top: 3220px;
+        transform: rotate(0deg);
+        width: 440px !important;
+        height: 400px !important;
+    }
+    
+    .blurbottom5 {
+        position: absolute;
+        height: 273.53px;
+        left: 70.95%;
+        right: 0.05%;
+        top: 4820px;
+        transform: rotate(0deg);
+        width: 440px !important;
+        height: 600px !important;
+    }
+    
+    .blurbottom6 {
+        position: absolute;
+        height: 273.53px;
+        left: -30.95%;
+        right: 0.05%;
+        top: 3850px;
+        transform: rotate(0deg);
+        width: 440px !important;
+        height: 600px !important;
+    }
+    
+    .shapes {
+        position: absolute;
+        left: 0;
+        right: 81.05%;
+        top: 1540.5px;
+        z-index: 16;
+        width: 1024px;
+        height: 400px;
+    }
 }
