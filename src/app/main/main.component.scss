@@ -202,9 +202,9 @@
         padding: 15px 30px;
         gap: 10px;
         position: absolute;
-        width: 133px;
+        width: 183px;
         height: 49px;
-        left: 170px;
+        left: 140px;
         top: -280px;
         background: #00BEE8;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -213,7 +213,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 26px;
         line-height: 120%;
     }
     
@@ -242,7 +242,132 @@
         height: 450px;
         position: absolute;
         top:170px;
-        left:-140px;
+        left:-160px;
+        right:0;
+        bottom:0;
+        z-index:15;
+    }
+}
+
+@media (min-width: 1440px) {
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 600px;
+        right: 0px;
+        bottom: 0px;
+    }
+    
+    .myText {
+        position: absolute;
+        top: -80;
+        left:-160px;
+        right: 0px;
+        bottom: 0px;
+    }
+    
+    .iam {
+        position: absolute;
+        top: -590px;
+        left: 190px;
+        right: 50px;
+        bottom: 405px;
+        width: 400px;
+        height: 54px;
+        z-index: 6;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 120%;
+        color: #1bdc8296;
+    }
+    
+    .myName {
+        position: absolute;
+        top: 100;
+        left: 45px;
+        right: 50px;
+        bottom: 360px;
+        width: 600px;
+        height: 54px;
+        z-index: 6;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+    
+    .myJob {
+        position: absolute;
+        top: -475px;
+        left: -40px;
+        right: 70px;
+        bottom: 350px;
+        width: 610px;
+        height: 35px;
+        z-index: 6;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 120%;
+        color: #4B47FF;
+    }
+    
+    .letstalkbtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 10px;
+        position: absolute;
+        width: 333px;
+        height: 59px;
+        left: 90px;
+        top: -280px;
+        background: #00BEE8;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 120%;
+    }
+    
+    .iconline {
+        position: absolute;
+        top:-80px;
+        left: -600px;
+        right:0px;
+        bottom:0;
+    }
+    
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+        position: absolute;
+        top:-160px;
+        left:-630px;
+        right:0;
+        bottom:0;
+    }
+    
+    .myPicture {
+        width: 444px;
+        height: 450px;
+        position: absolute;
+        top:190px;
+        left:-160px;
         right:0;
         bottom:0;
         z-index:15;

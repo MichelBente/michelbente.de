@@ -81,3 +81,45 @@ header {
         height: 40px;
     }
 }
+
+@media (min-width: 1440px) {
+    header {
+        background-color: #141D2F;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 37px, 25px;
+        gap: 774px;
+        position:sticky;
+        height: 110px;
+    }
+    
+    .logo {
+        position: absolute;
+        top:-60px;
+        left: 30px;
+        right: 80px;
+        bottom: 0;
+        width: 350px;
+        height: 350px;
+    }
+    
+    .menu{
+        width: 120px;
+        height: 120px;
+        z-index: 17;
+    }
+    
+    .burger {
+        width: 60px;
+        height: 60px;
+        z-index: 7;
+        position: absolute;
+        top: 40px;
+        left: 1280px;
+        right: 20px;
+        bottom: 0;
+        width: 80px;
+        height: 80px;
+    }
+}

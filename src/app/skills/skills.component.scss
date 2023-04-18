@@ -60,6 +60,7 @@
     align-items: center;
     padding-top: 80px;
     gap: 20px;
+    width: 350px;
   
 
 
@@ -68,6 +69,7 @@
         align-items: center;
         gap: 15;
         padding-right: 10px;
+        margin-left: 30px;
         flex-wrap: wrap;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -179,12 +181,13 @@
         align-items: center;
         padding-top: 80px;
         gap: 20px;
+        width: 500px;
        
         .skillicons {
             display: flex;
             align-items: center;
             gap: 15;
-            padding-right: 10px;
+            padding-right: 30px;
             flex-wrap: wrap;
             padding-top: 80px;
             padding-bottom: 20px;
@@ -227,6 +230,123 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
+        line-height: 120%;
+
+    }
+}
+
+@media (min-width: 1440px) {
+    .skills-section {
+        position: absolute;
+        top: 2350px;
+        left: 480px;
+        display: flex;
+        flex-direction: row;
+        color: #FFFFFF;
+        z-index: 20;   
+    
+        .headline-skills {
+            position: absolute;
+            top: -120px;
+            left: 0;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 120%;
+            z-index: 21;
+            color: #FFFFFF;
+            justify-content: center;
+        }
+    
+        .header-text {
+            padding-left: 0px;
+            font-size: 55px;
+            padding-bottom: 20px;
+        }
+    
+        .blueline {
+            position: absolute;
+            width: 225px;
+            height: 0px;
+            left: 1000px;
+            top: 90px;
+            border: 4px solid #1CE6B6;
+        }
+    
+        .text4 {
+            position: absolute;
+            top: -10px;
+            width: 538px;
+            height: 133px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 120%;
+            z-index: 18;
+            color: #FFFFFF;
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+    }
+    
+    .skillList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 80px;
+        gap: 20px;
+        width: 700px;
+       
+        .skillicons {
+            display: flex;
+            align-items: center;
+            gap: 35;
+            padding-right: 30px;
+            flex-wrap: wrap;
+            padding-top: 80px;
+            padding-bottom: 20px;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        .skills {
+            width: 64px;
+            height: 17px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 120%;
+            color: #FFFFFF;
+            margin-top: 10px;
+        }
+    }
+    
+    .buttonintouch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+    }
+    
+    .letstalkbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 10px;
+        background: #00BEE8;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
         line-height: 120%;
     }
 }
