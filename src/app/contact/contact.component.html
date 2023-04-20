@@ -13,13 +13,33 @@
     <span class="contactText2">
         Need a Frontend developer? <b>Contact me!</b>
     </span>
-    <div class="inputfields-section">
+    <div class="inputfields-section" data-aos="zoom-in" data-aos-duration="2000">
+        <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
         <div class="inputfields">
-            <input class="yourName" type="text" required placeholder="Your name" minlength="3"> 
-            <input class="yourEmail" type="email" required placeholder="Your email" minlength="6">
-            <input class="yourMessage" type="text" required placeholder="Your message">
+            <input class="yourName" formControlName="name" type="text" placeholder="Your name" required>
+                <ng-container *ngIf="myForm.get('name')?.invalid && myForm.get('name')?.touched"><img class="inputError" src="./../../assets/img/icon/invalid.svg" alt=""></ng-container>
+                <ng-container *ngIf="myForm.get('name')?.valid"><img class="inputError" src="./../../assets/img/icon/valid.svg" alt=""></ng-container>
+                <ng-container *ngIf="myForm.get('name')?.invalid && isSubmitted">
+                        <p class="error">Your name is required!</p>
+                        <img class="inputError" src="../../assets/img/inputwrong.svg" alt="">
+                </ng-container>
+           <input class="yourEmail" formControlName="email" type="email" placeholder="Your email" required>
+                <ng-container *ngIf="myForm.get('email')?.invalid && myForm.get('email')?.touched"><img class="inputError" src="./../../assets/img/icon/invalid.svg" alt=""></ng-container>
+                <ng-container *ngIf="myForm.get('email')?.valid"><img class="inputError" src="./../../assets/img/icon/valid.svg" alt=""></ng-container>
+                <ng-container *ngIf="myForm.get('email')?.invalid && isSubmitted">
+                        <p class="error">Your email is required!</p>
+                        <img class="inputError" src="../../assets/img/inputwrong.svg" alt="">
+                </ng-container>
+             <textarea class="yourMessage" formControlName="message" rows="10" type="text" placeholder="Your message" required></textarea>
+                <ng-container *ngIf="myForm.get('message')?.invalid && myForm.get('message')?.touched"><img class="textError" src="./../../assets/img/icon/invalid.svg" alt=""></ng-container>
+                <ng-container *ngIf="myForm.get('message')?.valid"><img class="textError" src="./../../assets/img/icon/valid.svg" alt=""></ng-container>
+                <ng-container *ngIf="myForm.get('message')?.invalid && isSubmitted">
+                        <p class="error">Your message is required!</p>
+                        <img class="textError" src="../../assets/img/inputwrong.svg" alt="">
+                </ng-container>
+            <button #sendButton class="btnSend">Send Message :)</button>
         </div>
+        </form>
     </div>
-    <button class="btnSend">Send Message :)</button>
     <img class="arrowUp" src="/assets/img/icons/icon/icon/arrowup.png" alt="arrow up">
 </div>

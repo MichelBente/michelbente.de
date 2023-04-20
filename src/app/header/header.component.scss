@@ -38,6 +38,9 @@ header {
     width: 40px;
     height: 40px;
 }
+.links {
+    display: none;
+}
 }
 
 @media (min-height: 1024px) {
@@ -80,6 +83,9 @@ header {
         width: 40px;
         height: 40px;
     }
+    .links {
+        display: none;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -111,15 +117,34 @@ header {
     }
     
     .burger {
-        width: 60px;
-        height: 60px;
-        z-index: 7;
+       display: none;
+    }
+    .links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
         position: absolute;
-        top: 40px;
-        left: 1280px;
-        right: 20px;
+        top:-30px;
+        left: 80px;
+        right: 40px;
         bottom: 0;
-        width: 80px;
-        height: 80px;
+        gap: 35px;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+    .links a:hover {
+        text-decoration: none;
+        color: #1CE6B6;
+        transform: scaleX(1.2) ;
+    }
+    .menulinks {
+        text-decoration: none;
+        color: #FFFFFF;
+        transition: all 255ms ease-in-out;
+    }
+    .menulinks:hover {
+        text-decoration: underline;
+        color:#1CE6B6;
+        transition: all 255ms ease-in-out;
     }
 }
