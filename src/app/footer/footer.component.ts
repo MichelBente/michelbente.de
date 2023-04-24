@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+githubstring = 'https://github.com/MichelBente';
+linkedinstring = 'https://www.linkedin.com/in/michel-bente-243927270/';
+mailtomestring = 'mailto:bentemichel@web.de'
 }

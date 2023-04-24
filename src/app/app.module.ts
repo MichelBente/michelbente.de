@@ -12,7 +12,11 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
-import { ReactiveFormsModule} from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ImprintComponent } from './imprint/imprint.component';
+
+import { HttpClientModule } from '@angular/common/http';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +29,8 @@ import { ReactiveFormsModule} from '@angular/forms';
     PortfolioComponent,
     ContactComponent,
     FooterComponent,
+    ImprintComponent,
+    PrivacyComponent,
   
   ],
   imports: [
@@ -32,6 +38,7 @@ import { ReactiveFormsModule} from '@angular/forms';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

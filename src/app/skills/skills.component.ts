@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class SkillsComponent {
   skills = ['Angular', 'TypeScript', 'JavaScript','CSS/SCSS', 'HTML', 'GIT', 'Firebase', 'Scrum', 'Rest-API', 'Material Design']
   skillsImg = ['angular.png', 'typescript.png', 'javascript.png', 'css.png', 'html.png', 'git.png', 'firebase.png', 'scrum.png', 'api.png', 'material.png']
+  contactstring = "mailto:bentemichel@web.de";
+  
+
 }
