@@ -3,16 +3,18 @@
         <p class="header-text">Skills</p>
         <img class="blueline" src="/assets/img/icons/icon/icon/line2.png" alt="blue line">
     </div>
-    <span class="text4">I have gained experience in building projects with various front end technologies and
-        concepts.</span>
-    <div class="skillList">
-        <div class="skillicons" *ngFor="let skill of skills; let i = index">
-            <img src="./../../assets/img/icons/icon/icon/{{skillsImg[i]}}" alt=""> {{skill}}
+    <div class="textnskillcolumn">
+        <span class="text4">I have gained experience in building projects with various front end technologies and
+            concepts.</span>
+        <div class="skillList">
+            <div class="skillicons" *ngFor="let skill of skills; let i = index">
+                <img src="./../../assets/img/icons/icon/icon/{{skillsImg[i]}}" alt=""> {{skill}}
+            </div>
+            <div class="buttonintouch">
+                <a [href]="contactstring"><button class="letstalkbtn">Get in touch</button></a>
+            </div>
         </div>
-        <div class="buttonintouch">
-            <a [href]="contactstring"><button class="letstalkbtn">Get in touch</button></a> 
-        </div>
-    </div>
-    
-</div> 
 
+    </div>
+
+</div>

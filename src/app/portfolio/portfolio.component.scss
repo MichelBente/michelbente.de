@@ -1,126 +1,100 @@
+
+
 @media (min-height: 390px) {
     .portfolio-content {
-        position: absolute;
-        top: 3350px;
-        left: 0px;
         display: flex;
         color: #FFFFFF;
         z-index: 20;
+        overflow: hidden;
     }
 
     .portfolio-headline {
-        position: absolute;
-        top: 0px;
-        left: 70px;
-        right: 0px;
-        bottom: 0px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 45px;
-        line-height: 120%;
         z-index: 21;
         color: #FFFFFF;
         justify-content: center;
+        margin-left: 100px;
     }
 
+    .text {
+        margin-left: -30px;
+    }
     .line3 {
         padding-bottom: 10px;
-        padding-right: 0px;
-        position: absolute;
-        top: 28px;
-        left: -60px;
-        right: 0px;
-        bottom: 0px;
+        padding-right: 40px;
+        margin-left: -100px;
+        margin-top: 85px;
     }
 
     .textPortfolio {
-        position: absolute;
-        left: 0px;
-        top: 80px;
-        right: 0px;
-        bottom: 0px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 120%;
         color: #FFFFFF;
-        width: 250px;
-    }
+        margin-top: 150px;
 
+    }
+.mockup1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left:-30px!important;
+    padding-right:20px;
+}
+.mockup2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left:-30px!important;
+    padding-right:20px;
+}
     .projectheadline {
-        width: 296px;
-        height: 42.82px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 32px;
-        line-height: 120%;
         text-align: center;
         color: #4B47FF;
-        position: absolute;
-        left: 10px;
-        top: 300px;
-        right: 0px;
-        bottom: 0px;
     }
 
     .languages {
-        width: 463px;
-        height: 56px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 23px;
-        line-height: 120%;
         color: #00BEE8;
-        position: absolute;
-        left: 50px;
-        top: 350px;
-        right: 0px;
-        bottom: 0px;
     }
 
     .projectDescription {
         width: 240px;
         height: 76px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 120%;
         text-align: center;
         color: #FFFFFF;
-        position: absolute;
-        left: 50px;
-        top: 400px;
-        right: 0px;
-        bottom: 0px;
     }
 
     .mockups {
-        position: absolute;
-        left: 20px;
-        top: 140px;
-        right: 0px;
-        bottom: 0px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: 200px;
+        margin-left: -210px;
+        flex-direction: column;
     }
 
     .mockup2 {
-        position: absolute;
-        left: 0px;
-        top: 540px;
-        right: 0px;
-        bottom: 0px;
+        cursor: pointer;
     }
 
     .mockup3 {
-        position: absolute;
-        left: 510px;
-        top: 1040px;
-        right: 0px;
-        bottom: 0px;
+        cursor: pointer;
     }
 
     .livetestBtn {
@@ -134,160 +108,121 @@
         height: 58px;
         background: #4B47FF;
         border-radius: 10px;
-        position: absolute;
-        left: 350px;
-        top: 220px;
-        right: 0px;
-        bottom: 0px;
         color: #FFFFFF;
         font-size: 16px;
+        cursor: pointer;
     }
 
     .gitHubBtn {
         width: 77px;
         height: 28px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 120%;
         color: #F5F5F5;
         width: 152px;
         height: 58px;
         border-radius: 10px;
-        position: absolute;
-        left: 520px;
-        top: 220px;
-        right: 0px;
-        bottom: 0px;
         background-color: #141D2F;
+        cursor: pointer;
     }
 }
 
 @media (min-height: 1024px) {
     .portfolio-content {
-        position: absolute;
-        top: 3800px;
-        left: 0px;
         display: flex;
         color: #FFFFFF;
         z-index: 20;
     }
 
     .portfolio-headline {
-        position: absolute;
-        top: 0px;
-        left: 70px;
-        right: 0px;
-        bottom: 0px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 55px;
-        line-height: 120%;
         z-index: 21;
         color: #FFFFFF;
         justify-content: center;
+        margin-left:170px;
+       
     }
 
     .line3 {
         padding-bottom: 10px;
-        padding-right: 0px;
-        position: absolute;
-        top: 28px;
-        left: -70px;
-        right: 0px;
-        bottom: 0px;
+        padding-right: 100px;
+        margin-left:-160px;
     }
 
     .textPortfolio {
-        position: absolute;
-        left: 0px;
-        top: 150px;
-        right: 0px;
-        bottom: 0px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 120%;
         color: #FFFFFF;
         width: 550px;
+        margin-left: -5px;
     }
 
+    .mockup1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left:-30px!important;
+        padding-right:20px;
+        cursor:pointer;
 
+    }
+    .mockup2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left:-30px!important;
+        padding-right:20px;
+        cursor:pointer;
+        margin-top: 50px;
+    }
       .projectheadline {
-        width: 296px;
-        height: 42.82px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 32px;
-        line-height: 120%;
         text-align: center;
         color: #4B47FF;
-        position: absolute;
-        left: 350px;
-        top: 30px;
-        right: 0px;
-        bottom: 0px;
     }
 
     .languages {
-        width: 463px;
-        height: 56px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 23px;
-        line-height: 120%;
         color: #00BEE8;
-        position: absolute;
-        left: 394px;
-        top: 80px;
-        right: 0px;
-        bottom: 0px;
+        margin-left:5px;
     }
 
     .projectDescription {
         width: 240px;
         height: 76px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 120%;
         text-align: center;
         color: #FFFFFF;
-        position: absolute;
-        left: 390px;
-        top: 130px;
-        right: 0px;
-        bottom: 0px;
     }
 
     .mockups {
-        position: absolute;
-        left: 20px;
-        top: 240px;
-        right: 0px;
-        bottom: 0px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: 200px;
+        margin-left: -450px;
+        flex-direction: column;
     }
 
-    .mockup2 {
-        position: absolute;
-        left: 0px;
-        top: 340px;
-        right: 0px;
-        bottom: 0px;
-    }
+    
 
     .mockup3 {
-        position: absolute;
-        left: 510px;
-        top: 1040px;
-        right: 0px;
-        bottom: 0px;
+        cursor: pointer;
     }
 
     .livetestBtn {
@@ -301,58 +236,38 @@
         height: 58px;
         background: #4B47FF;
         border-radius: 10px;
-        position: absolute;
-        left: 350px;
-        top: 220px;
-        right: 0px;
-        bottom: 0px;
         color: #FFFFFF;
         font-size: 16px;
+        cursor: pointer;
     }
 
     .gitHubBtn {
         width: 77px;
         height: 28px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 120%;
         color: #F5F5F5;
         width: 152px;
         height: 58px;
         border-radius: 10px;
-        position: absolute;
-        left: 520px;
-        top: 220px;
-        right: 0px;
-        bottom: 0px;
         background-color: #141D2F;
+        cursor: pointer;
     }
 
 }
 
 @media (min-width: 1440px) {
     .portfolio-content {
-        position: absolute;
-        top: 3400px;
-        left: 500px;
         display: flex;
         color: #FFFFFF;
         z-index: 20;
     }
 
     .portfolio-headline {
-        position: absolute;
-        top: 0px;
-        left: -300px;
-        right: 0px;
-        bottom: 0px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 55px;
-        line-height: 120%;
         z-index: 21;
         color: #FFFFFF;
         justify-content: center;
@@ -369,16 +284,9 @@
     }
 
     .textPortfolio {
-        position: absolute;
-        left: 0px;
-        top: 80px;
-        right: 0px;
-        bottom: 0px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 120%;
         color: #FFFFFF;
         width: 550px;
     }
@@ -387,75 +295,61 @@
         width: 296px;
         height: 42.82px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 32px;
-        line-height: 120%;
         text-align: center;
         color: #4B47FF;
-        position: absolute;
-        left: 420px;
-        top: 30px;
-        right: 0px;
-        bottom: 0px;
     }
 
     .languages {
         width: 463px;
         height: 56px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 23px;
-        line-height: 120%;
         color: #00BEE8;
-        position: absolute;
-        left: 450px;
-        top: 80px;
-        right: 0px;
-        bottom: 0px;
     }
 
     .projectDescription {
         width: 340px;
         height: 76px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 120%;
         text-align: center;
         color: #FFFFFF;
-        position: absolute;
-        left: 400px;
-        top: 130px;
-        right: 0px;
-        bottom: 0px;
     }
+    .mockup1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left:-30px!important;
+        padding-right:20px;
+        cursor:pointer;
 
+    }
+    .mockup2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left:-30px!important;
+        padding-right:20px;
+        cursor:pointer;
+        margin-top: 50px;
+    }
     .mockups {
-        position: absolute;
-        left: -150px;
-        top: 180px;
-        right: 0px;
-        bottom: 0px;
+        cursor: pointer;
 
     }
 
     .mockup2 {
-        position: absolute;
-        left: 10px;
-        top: 340px;
-        right: 0px;
-        bottom: 0px;
+        cursor: pointer;
     }
 
     .mockup3 {
-        position: absolute;
-        left: 510px;
-        top: 1040px;
-        right: 0px;
-        bottom: 0px;
+        cursor: pointer;
     }
 
     .livetestBtn {
@@ -469,33 +363,23 @@
         height: 58px;
         background: #4B47FF;
         border-radius: 10px;
-        position: absolute;
-        left: 400px;
-        top: 220px;
-        right: 0px;
-        bottom: 0px;
         color: #FFFFFF;
         font-size: 23px;
+        cursor: pointer;
     }
 
     .gitHubBtn {
         width: 77px;
         height: 28px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 23px;
-        line-height: 120%;
         color: #F5F5F5;
         width: 152px;
         height: 58px;
         border-radius: 10px;
-        position: absolute;
-        left: 580px;
-        top: 220px;
-        right: 0px;
-        bottom: 0px;
         background-color: #141D2F;
+        cursor: pointer;
     }
 
 }

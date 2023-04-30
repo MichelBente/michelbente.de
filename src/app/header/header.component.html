@@ -1,13 +1,19 @@
 <header class="header">
-<img class="logo" src="./assets/img/icons/logodarkblue-remove.png">
-<img class="burger" src="./assets/img/icons/icon/icon/menu/burger.png">
-    
-    <div class="links">
-        <a class="menulinks" href="#">Home</a>
-        <a class="menulinks" href="#">About me</a>
-        <a class="menulinks" href="#">Skills</a>
-        <a class="menulinks" href="#">Portfolio</a>
-        <a class="menulinks" href="#">Contact</a>
-    </div>
-</header>
+    <img class="logo" src="./assets/img/icons/logodarkblue-remove.png">
+    <a href="#home"><img class="burger" src="./assets/img/icons/icon/icon/menu/burger.png"></a>
+   
 
+        <label class="burger" for="burger">
+            <input type="checkbox" id="burger" (click)="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="links" [class.isOpen]="isMenuOpen">
+            <a class="hover-underline-animation" href="#aboutMe" (click)="closeMenu()">About me</a>
+            <a class="hover-underline-animation" href="#skills" (click)="closeMenu()">Skills</a>
+            <a class="hover-underline-animation" href="#portfolio" (click)="closeMenu()">Portfolio</a>
+            <a class="hover-underline-animation" href="#contact" (click)="closeMenu()">Contact</a>
+        </div>
+</header>

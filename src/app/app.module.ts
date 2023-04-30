@@ -17,6 +17,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { PrivacyComponent } from './privacy/privacy.component';
+import { HomescreenComponent } from './homescreen/homescreen.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
     FooterComponent,
     ImprintComponent,
     PrivacyComponent,
+    HomescreenComponent,
   
   ],
   imports: [

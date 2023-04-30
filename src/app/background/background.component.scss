@@ -1,8 +1,12 @@
+
+
+
 @media (min-width: 390px) {
 .background {
     width: 400px;
     height: 600px;
     z-index: -1;
+    overflow: hidden;
 }
 
 .blurtop {
@@ -54,10 +58,11 @@
     height: 273.53px;
     left: -60.95%;
     right: 81.05%;
-    top: 1000.5px;
-    transform: rotate(125deg);
+    top: 920.5px;
+    transform: rotate(180deg);
     width: 800px !important;
     height: 600px !important;
+    overflow: hidden;
 }
 
 .blurbottom4 {
@@ -97,7 +102,7 @@
     position: absolute;
     left: -0.14%;
     right: 81.05%;
-    top: 1360.5px;
+    top: 1200.5px;
     z-index:16;
     width: 700px;
     height: 400px;
@@ -162,7 +167,7 @@
         height: 273.53px;
         left: -3.95%;
         right: 81.05%;
-        top: 1150.5px;
+        top: 1000.5px;
         transform: rotate(180deg);
         width: 800px !important;
         height: 600px !important;
@@ -205,7 +210,7 @@
         position: absolute;
         left: 0;
         right: 81.05%;
-        top: 1540.5px;
+        top: 1340.5px;
         z-index: 16;
         width: 1024px;
         height: 400px;
@@ -316,7 +321,7 @@
         position: absolute;
         left: 0;
         right: 81.05%;
-        top: 1240.5px;
+        top: 1245.5px;
         z-index: 16;
         width: 1440px;
         height: 400px;
