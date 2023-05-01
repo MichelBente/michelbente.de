@@ -21,6 +21,7 @@
     border: 4px solid #1CE6B6;
     margin-top: 70px;
 }
+
 .textnskillcolumn {
     flex-direction: column;
     display: flex;
@@ -30,108 +31,115 @@
     margin-left: -350px;
 }
 
-@media (min-width: 390px) {
-.skills-section {
+.buttonintouch {
     display: flex;
-    flex-direction: row;
-    color: #FFFFFF;
-    z-index: 20;
-    padding-top: 100px;
-
-
-.headline-skills {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 45px;
-    z-index: 21;
-    color: #FFFFFF;
+    align-items: center;
     justify-content: center;
 }
 
-    .header-text {
-        padding-left: 0px;
+@media (min-width: 390px) {
+    .skills-section {
+        display: flex;
+        flex-direction: row;
+        color: #FFFFFF;
+        z-index: 20;
+        padding-top: 100px;
+
+
+        .headline-skills {
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 45px;
+            z-index: 21;
+            color: #FFFFFF;
+            justify-content: center;
+        }
+
+        .header-text {
+            padding-left: 0px;
+        }
+
+        .blueline {
+            width: 205px;
+            height: 0px;
+            border: 4px solid #1CE6B6;
+            margin-left: 10px;
+        }
+
+        .text4 {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 16px;
+            z-index: 18;
+            color: #FFFFFF;
+            padding-top: 20px;
+            margin-left: 140px;
+            width: 200px;
+            padding-bottom: 20px;
+        }
     }
 
-    .blueline {
-        width: 205px;
-        height: 0px;
-        border: 4px solid #1CE6B6;
-        margin-left:10px;
+    .skillList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        width: 350px;
+        margin-left: -30px;
+
+
+
+        .skillicons {
+            display: flex;
+            align-items: center;
+            gap: 15;
+            padding-right: 10px;
+            margin-left: 30px;
+            flex-wrap: wrap;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+
+        }
+
+        .skills {
+            width: 64px;
+            height: 17px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+            margin-top: 10px;
+        }
     }
 
-    .text4 {
+    .buttonintouch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        padding-left: 120px;
+    }
+
+    .letstalkbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 10px;
+        background: #00BEE8;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        color: #FFFFFF;
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 16px;
-        z-index: 18;
-        color: #FFFFFF;
-        padding-top: 20px;
-        margin-left: 140px;
-        width: 200px;
-        padding-bottom: 20px;
     }
-}
-
-.skillList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
-    width: 350px;
-    margin-left:-30px;
-
-
-
-    .skillicons {
-        display: flex;
-        align-items: center;
-        gap: 15;
-        padding-right: 10px;
-        margin-left: 30px;
-        flex-wrap: wrap;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-
-
-    }
-
-    .skills {
-        width: 64px;
-        height: 17px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        color: #FFFFFF;
-        margin-top: 10px;
-    }
-}
-
-.buttonintouch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60px;
-}
-
-.letstalkbtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 30px;
-    gap: 10px;
-    background: #00BEE8;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    color: #FFFFFF;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-}
 }
 
 @media (min-height: 1024px) {
@@ -139,7 +147,7 @@
         display: flex;
         flex-direction: row;
         color: #FFFFFF;
-        z-index: 20;   
+        z-index: 20;
 
         .headline-skills {
             font-family: 'Poppins';
@@ -171,7 +179,7 @@
             z-index: 18;
             color: #FFFFFF;
             padding-top: 60px;
-            margin-left:-130px;
+            margin-left: -130px;
             width: 400px;
         }
     }
@@ -183,7 +191,7 @@
         align-items: center;
         gap: 20px;
         width: 700px;
-        margin-left:-320px;
+        margin-left: -320px;
 
         .skillicons {
             display: flex;
@@ -214,6 +222,10 @@
         justify-content: center;
         align-items: center;
         padding-top: 60px;
+        padding-right: 220px;
+        padding-bottom: 100px;
+        margin-left: 80px;
+        cursor: pointer;
     }
 
     .letstalkbtn {
@@ -239,7 +251,7 @@
         display: flex;
         flex-direction: row;
         color: #FFFFFF;
-        z-index: 20;   
+        z-index: 20;
 
         .headline-skills {
             font-family: 'Poppins';
@@ -248,7 +260,7 @@
             z-index: 21;
             color: #FFFFFF;
             justify-content: center;
-            padding-left:40px;
+            padding-left: 40px;
         }
 
         .header-text {
@@ -287,7 +299,7 @@
         align-items: center;
         gap: 20px;
         width: 1200px;
-        margin-left:-920px;
+        margin-left: -920px;
 
         .skillicons {
             display: flex;
@@ -316,7 +328,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 60px;
+        margin-top: 100px;
+        margin-right: 110px;
+        margin-left: 50px;
+       
     }
 
     .letstalkbtn {
@@ -332,5 +347,8 @@
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 26px;
+        margin-left: 295px;
+        margin-top: -80px;
+        margin-bottom: 100px;
     }
 }

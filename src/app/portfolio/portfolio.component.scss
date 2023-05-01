@@ -1,5 +1,3 @@
-
-
 @media (min-height: 390px) {
     .portfolio-content {
         display: flex;
@@ -21,6 +19,7 @@
     .text {
         margin-left: -30px;
     }
+
     .line3 {
         padding-bottom: 10px;
         padding-right: 40px;
@@ -36,24 +35,29 @@
         margin-top: 150px;
 
     }
-.mockup1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-left:-30px!important;
-    padding-right:20px;
-}
-.mockup2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-left:-30px!important;
-    padding-right:20px;
-}
+
+    .mockup1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: -30px !important;
+        padding-right: 20px;
+        
+    }
+
+    .mockup2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: -30px !important;
+        padding-right: 20px;
+        margin-bottom: 100px;
+    }
+
     .projectheadline {
         font-family: 'Poppins';
         font-weight: 700;
@@ -80,7 +84,7 @@
     }
 
     .mockups {
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
@@ -142,14 +146,14 @@
         z-index: 21;
         color: #FFFFFF;
         justify-content: center;
-        margin-left:170px;
-       
+        margin-left: 170px;
+
     }
 
     .line3 {
         padding-bottom: 10px;
         padding-right: 100px;
-        margin-left:-160px;
+        margin-left: -160px;
     }
 
     .textPortfolio {
@@ -167,23 +171,26 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left:-30px!important;
-        padding-right:20px;
-        cursor:pointer;
+        margin-left: -30px !important;
+        padding-right: 20px;
+        cursor: pointer;
 
     }
+
     .mockup2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left:-30px!important;
-        padding-right:20px;
-        cursor:pointer;
+        margin-left: -30px !important;
+        padding-right: 20px;
+        cursor: pointer;
         margin-top: 50px;
+        margin-bottom: 150px;
     }
-      .projectheadline {
+
+    .projectheadline {
         font-family: 'Poppins';
         font-weight: 700;
         font-size: 32px;
@@ -196,7 +203,7 @@
         font-weight: 400;
         font-size: 23px;
         color: #00BEE8;
-        margin-left:5px;
+        margin-left: 5px;
     }
 
     .projectDescription {
@@ -210,7 +217,7 @@
     }
 
     .mockups {
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
@@ -219,7 +226,7 @@
         flex-direction: column;
     }
 
-    
+
 
     .mockup3 {
         cursor: pointer;
@@ -262,6 +269,7 @@
         display: flex;
         color: #FFFFFF;
         z-index: 20;
+        overflow: hidden;
     }
 
     .portfolio-headline {
@@ -271,16 +279,14 @@
         z-index: 21;
         color: #FFFFFF;
         justify-content: center;
+        align-items: center;
+        margin-left: 120px;
     }
 
     .line3 {
         padding-bottom: 10px;
-        padding-right: 0px;
-        position: absolute;
-        top: 28px;
-        left: -180px;
-        right: 0px;
-        bottom: 0px;
+        padding-right: 200px;
+        margin-left: -100px;
     }
 
     .textPortfolio {
@@ -289,6 +295,7 @@
         font-size: 26px;
         color: #FFFFFF;
         width: 550px;
+        padding-left: 155px;
     }
 
     .projectheadline {
@@ -302,8 +309,6 @@
     }
 
     .languages {
-        width: 463px;
-        height: 56px;
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 23px;
@@ -311,34 +316,39 @@
     }
 
     .projectDescription {
-        width: 340px;
-        height: 76px;
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 16px;
         text-align: center;
         color: #FFFFFF;
     }
+
     .mockup1 {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left:-30px!important;
-        padding-right:20px;
-        cursor:pointer;
+        cursor: pointer;
+        margin-top: 40px;
+        margin-left: -110px !important;
 
     }
+
+   
+
     .mockup2 {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left:-30px!important;
-        padding-right:20px;
-        cursor:pointer;
+        margin-left: -30px !important;
+        padding-right: 20px;
+        cursor: pointer;
         margin-top: 50px;
+        margin-left: -110px !important;
+        margin-bottom: 120px;
     }
+
     .mockups {
         cursor: pointer;
 

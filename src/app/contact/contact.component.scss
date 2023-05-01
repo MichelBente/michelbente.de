@@ -1,126 +1,158 @@
+.contact-headline {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
 @media (min-height: 390px) {
-.contact-section {
-    display: flex;
-    color: #FFFFFF;
-    z-index: 20;
-}
+    .contact-section {
+        display: flex;
+        color: #FFFFFF;
+        z-index: 20;
+        overflow: hidden;
+        flex-direction: column;
+    }
 
-.headline-contact {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 45px;
-    text-align: center;
-    color: #FFFFFF;
-}
+    .headline-contact {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 45px;
+        text-align: center;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-left: 100px;
+    }
 
-.line4 {
+    .line4 {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
 
-}
+    .question {
+       padding-right:20px;
+       padding-top:20px;
+       padding-bottom:20px;
+    }
 
-.questionline {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 23px;
-    color: #FFFFFF;
-}
+    .questionline {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 23px;
+        color: #FFFFFF;
+        
+    }
 
-.line6 {
+    .line6 {
+        margin-bottom: 5px;
+        padding-left:10px;
+        padding-right:10px;
+    }
 
-}
+    .textcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
 
-.contactText {
-    top: 100px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    margin-right: 20px;
-    flex-wrap: wrap;
-}
+    .contactText {
+        top: 100px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-right: 20px;
+        flex-wrap: wrap;
+        padding-left: 45px;
+        padding-bottom: 20px;
+    }
 
-.contactText2 {
-    font-family: 'Poppins';
-    font-weight: 400;
-    line-height: 120%;
-    color: #FFFFFF;
-}
+    .contactText2 {
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+        
+    }
 
-.inputfields-section {
-}
+    .inputfields-section {
+        margin-top:0px;
+    }
 
-.inputfields {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-    color: #FFFFFF;
+    .inputfields {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        color: #FFFFFF;
 
-}
+    }
 
-.yourName {
-    padding: 15px 25px;
-    gap: 10px;
-    width: 280px;
-    height: 40px;
-    background: #141D2F;
-    border: 1px solid #4B47FF;
-    border-radius: 10px
-}
+    .yourName {
+        padding: 15px 25px;
+        gap: 10px;
+        width: 280px;
+        height: 40px;
+        background: #141D2F;
+        border: 1px solid #4B47FF;
+        border-radius: 10px;
+        margin-bottom: 20px;
 
-.yourEmail {
-    padding: 15px 25px;
-    gap: 10px;
-    width: 280px;
-    height: 40px;
-    background: #141D2F;
-    border: 1px solid #4B47FF;
-    border-radius: 10px
-}
+    }
 
-.yourMessage {
-    padding: 15px 25px;
-    gap: 10px;
-    width: 280px;
-    height: 162px;
-    background: #141D2F;
-    border: 1px solid #4B47FF;
-    border-radius: 10px;
-    color: #FFFFFF;
-}
+    .yourEmail {
+        padding: 15px 25px;
+        gap: 10px;
+        width: 280px;
+        height: 40px;
+        background: #141D2F;
+        border: 1px solid #4B47FF;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
 
-::placeholder {
-    color: #FFFFFF;
-}
+    .yourMessage {
+        padding: 15px 25px;
+        gap: 10px;
+        width: 280px;
+        height: 162px;
+        background: #141D2F;
+        border: 1px solid #4B47FF;
+        border-radius: 10px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
 
-.btnSend {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 30px;
-    gap: 10px;
-    width: 176px;
-    background: #00BEE8;
-    border-radius: 10px;
-    color: #FFFFFF;
-    position: absolute;
-    height: 56px;
-    left: 70px;
-    top:405px;
-    cursor: pointer;
-}
+    ::placeholder {
+        color: #FFFFFF;
+    }
 
-.arrowUp {
-    position: absolute;
-    left: 280px;
-    top: 380px;
-    right: 0px;
-    bottom: 0px;
-    border: 2px solid white;
-    border-radius: 100%;
-    transform: rotate(0deg);
-    cursor: pointer;
-}
+    .btnSend {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 10px;
+        width: 176px;
+        background: #00BEE8;
+        border-radius: 10px;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-left:75px;
+    }
+
+    .arrowUp {
+        border: 2px solid white;
+        border-radius: 100%;
+        transform: rotate(0deg);
+        cursor: pointer;
+        margin-left: 300px;
+    }
 }
 
 @media (min-height: 1024px) {
@@ -129,7 +161,7 @@
         color: #FFFFFF;
         z-index: 20;
     }
-    
+
     .headline-contact {
         font-family: 'Poppins';
         font-weight: 700;
@@ -137,11 +169,7 @@
         text-align: center;
         color: #FFFFFF;
     }
-    
-    .line4 {
-    
-    }
-    
+
     .questionline {
         top: 50px;
         font-family: 'Poppins';
@@ -149,10 +177,7 @@
         font-size: 33px;
         color: #FFFFFF;
     }
-    
-    .line6 {
-    }
-    
+
     .contactText {
         font-family: 'Poppins';
         font-weight: 400;
@@ -163,18 +188,14 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    
+
     .contactText2 {
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 26px;
         color: #FFFFFF;
     }
-    
-    .inputfields-section {
 
-    }
-    
     .inputfields {
         display: flex;
         flex-direction: column;
@@ -182,9 +203,8 @@
         justify-content: center;
         gap: 25px;
         color: #FFFFFF;
-    
     }
-    
+
     .yourName {
         padding: 15px 25px;
         gap: 10px;
@@ -193,9 +213,9 @@
         background: #141D2F;
         border: 1px solid #4B47FF;
         border-radius: 10px;
-        color:#FFFFFF;
+        color: #FFFFFF;
     }
-    
+
     .yourEmail {
         padding: 15px 25px;
         gap: 10px;
@@ -205,8 +225,9 @@
         border: 1px solid #4B47FF;
         border-radius: 10px;
         color: #FFFFFF;
+        margin-bottom: 20px;
     }
-    
+
     .yourMessage {
         padding: 15px 25px;
         gap: 10px;
@@ -216,12 +237,13 @@
         border: 1px solid #4B47FF;
         border-radius: 10px;
         color: #FFFFFF;
+        margin-bottom: 20px;
     }
-    
+
     ::placeholder {
         color: #FFFFFF;
     }
-    
+
     .btnSend {
         display: flex;
         flex-direction: row;
@@ -233,24 +255,18 @@
         background: #00BEE8;
         border-radius: 10px;
         color: #FFFFFF;
-        position: absolute;
-        height: 56px;
-        left: 50px;
         cursor: pointer;
-        top: 480px;
+        margin-left:130px;
+       
     }
-    
+
     .arrowUp {
-        position: absolute;
-        left: 480px;
-        top: 400px;
-        right: 0px;
-        bottom: 0px;
         border: 2px solid white;
         border-radius: 100%;
         transform: rotate(0deg);
         cursor: pointer;
-}
+        margin-left:500px;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -259,7 +275,7 @@
         color: #FFFFFF;
         z-index: 20;
     }
-    
+
     .headline-contact {
         font-family: 'Poppins';
         font-weight: 700;
@@ -267,22 +283,14 @@
         text-align: center;
         color: #FFFFFF;
     }
-    
-    .line4 {
 
-    }
-    
     .questionline {
         font-family: 'Poppins';
         font-weight: 700;
         font-size: 33px;
         color: #FFFFFF;
     }
-    
-    .line6 {
-  
-    }
-    
+
     .contactText {
         font-family: 'Poppins';
         font-weight: 400;
@@ -293,18 +301,14 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    
+
     .contactText2 {
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 26px;
         color: #FFFFFF;
     }
-    
-    .inputfields-section {
- 
-    }
-    
+
     .inputfields {
         display: flex;
         flex-direction: column;
@@ -312,9 +316,9 @@
         justify-content: center;
         gap: 25px;
         color: #FFFFFF;
-    
+
     }
-    
+
     .yourName {
         padding: 15px 25px;
         gap: 10px;
@@ -323,9 +327,9 @@
         background: #141D2F;
         border: 1px solid #4B47FF;
         border-radius: 10px;
-        color:#FFFFFF;
+        color: #FFFFFF;
     }
-    
+
     .yourEmail {
         padding: 15px 25px;
         gap: 10px;
@@ -334,9 +338,9 @@
         background: #141D2F;
         border: 1px solid #4B47FF;
         border-radius: 10px;
-        color:#FFFFFF
+        color: #FFFFFF
     }
-    
+
     .yourMessage {
         padding: 15px 25px;
         gap: 10px;
@@ -347,11 +351,11 @@
         border-radius: 10px;
         color: #FFFFFF;
     }
-    
+
     ::placeholder {
         color: #FFFFFF;
     }
-    
+
     .btnSend {
         display: flex;
         flex-direction: row;
@@ -363,25 +367,18 @@
         background: #00BEE8;
         border-radius: 10px;
         color: #FFFFFF;
-        position: absolute;
-        height: 56px;
-        left: 50px;
-        top: 500px;
-        font-size: 26px;
+        font-size: 20px;
         cursor: pointer;
+        margin-left:80px;
     }
-    
+
     .arrowUp {
-        position: absolute;
-        left: 530px;
-        top: 420px;
-        right: 0px;
-        bottom: 0px;
         border: 2px solid white;
         border-radius: 100%;
         transform: rotate(0deg);
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         cursor: pointer;
-}
+        margin-left: 1000px;
+    }
 }
