@@ -12,6 +12,7 @@
         z-index: 20;
         overflow: hidden;
         flex-direction: column;
+        z-index: 20;
     }
 
     .headline-contact {
@@ -24,17 +25,20 @@
         align-items: center;
         gap: 30px;
         margin-left: 100px;
+        z-index: 20;
     }
 
     .line4 {
         margin-top: 10px;
         margin-left: 50px;
+        z-index: 20;
     }
 
     .question {
        padding-right:20px;
        padding-top:20px;
        padding-bottom:20px;
+       z-index: 20;
     }
 
     .questionline {
@@ -42,13 +46,14 @@
         font-weight: 700;
         font-size: 23px;
         color: #FFFFFF;
-        
+        z-index: 20;
     }
 
     .line6 {
         margin-bottom: 5px;
         padding-left:10px;
         padding-right:10px;
+        z-index: 20;
     }
 
     .textcontainer {
@@ -56,7 +61,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        
+        z-index: 20;
     }
 
     .contactText {
@@ -69,6 +74,7 @@
         flex-wrap: wrap;
         padding-left: 45px;
         padding-bottom: 20px;
+        z-index: 20;
     }
 
     .contactText2 {
@@ -76,11 +82,12 @@
         font-weight: 400;
         color: #FFFFFF;
         padding-bottom: 20px;
-        
+        z-index: 20;
     }
 
     .inputfields-section {
         margin-top:0px;
+        z-index: 20;
     }
 
     .inputfields {
@@ -89,7 +96,7 @@
         align-items: center;
         gap: 25px;
         color: #FFFFFF;
-
+        z-index: 20;
     }
 
     .yourName {
@@ -101,7 +108,7 @@
         border: 1px solid #4B47FF;
         border-radius: 10px;
         margin-bottom: 20px;
-
+        z-index: 20;
     }
 
     .yourEmail {
@@ -113,6 +120,7 @@
         border: 1px solid #4B47FF;
         border-radius: 10px;
         margin-bottom: 20px;
+        z-index: 20;
     }
 
     .yourMessage {
@@ -125,6 +133,7 @@
         border-radius: 10px;
         color: #FFFFFF;
         margin-bottom: 20px;
+        z-index: 20;
     }
 
     ::placeholder {
@@ -144,6 +153,7 @@
         color: #FFFFFF;
         cursor: pointer;
         margin-left:75px;
+        z-index: 20;
     }
 
     .arrowUp {
@@ -152,6 +162,7 @@
         transform: rotate(0deg);
         cursor: pointer;
         margin-left: 300px;
+        z-index: 20;
     }
 }
 
@@ -168,6 +179,7 @@
         font-size: 55px;
         text-align: center;
         color: #FFFFFF;
+        z-index: 20;
     }
 
     .questionline {
@@ -176,6 +188,7 @@
         font-weight: 700;
         font-size: 33px;
         color: #FFFFFF;
+        z-index: 20;
     }
 
     .contactText {
@@ -187,6 +200,7 @@
         flex-wrap: wrap;
         padding-top: 20px;
         padding-bottom: 20px;
+        z-index: 20;
     }
 
     .contactText2 {
@@ -194,6 +208,7 @@
         font-weight: 400;
         font-size: 26px;
         color: #FFFFFF;
+        z-index: 20;
     }
 
     .inputfields {
@@ -203,6 +218,7 @@
         justify-content: center;
         gap: 25px;
         color: #FFFFFF;
+        z-index: 20;
     }
 
     .yourName {
@@ -214,6 +230,7 @@
         border: 1px solid #4B47FF;
         border-radius: 10px;
         color: #FFFFFF;
+        z-index: 20;
     }
 
     .yourEmail {
@@ -226,6 +243,7 @@
         border-radius: 10px;
         color: #FFFFFF;
         margin-bottom: 20px;
+        z-index: 20;
     }
 
     .yourMessage {
@@ -238,6 +256,7 @@
         border-radius: 10px;
         color: #FFFFFF;
         margin-bottom: 20px;
+        z-index: 20;
     }
 
     ::placeholder {
@@ -257,7 +276,7 @@
         color: #FFFFFF;
         cursor: pointer;
         margin-left:130px;
-       
+        z-index: 20;
     }
 
     .arrowUp {
@@ -266,6 +285,7 @@
         transform: rotate(0deg);
         cursor: pointer;
         margin-left:500px;
+        z-index: 20;
     }
 }
 
@@ -282,6 +302,7 @@
         font-size: 55px;
         text-align: center;
         color: #FFFFFF;
+        z-index: 20;
     }
 
     .questionline {
@@ -289,6 +310,7 @@
         font-weight: 700;
         font-size: 33px;
         color: #FFFFFF;
+        z-index: 20;
     }
 
     .contactText {
@@ -300,6 +322,7 @@
         flex-wrap: wrap;
         padding-top: 20px;
         padding-bottom: 20px;
+        z-index: 20;
     }
 
     .contactText2 {
@@ -307,6 +330,7 @@
         font-weight: 400;
         font-size: 26px;
         color: #FFFFFF;
+        z-index: 20;
     }
 
     .inputfields {
@@ -316,7 +340,7 @@
         justify-content: center;
         gap: 25px;
         color: #FFFFFF;
-
+        z-index:50;
     }
 
     .yourName {
@@ -328,6 +352,7 @@
         border: 1px solid #4B47FF;
         border-radius: 10px;
         color: #FFFFFF;
+        z-index:20;
     }
 
     .yourEmail {
@@ -338,7 +363,8 @@
         background: #141D2F;
         border: 1px solid #4B47FF;
         border-radius: 10px;
-        color: #FFFFFF
+        color: #FFFFFF;
+        z-index:20;
     }
 
     .yourMessage {
@@ -350,6 +376,7 @@
         border: 1px solid #4B47FF;
         border-radius: 10px;
         color: #FFFFFF;
+        z-index:20;
     }
 
     ::placeholder {
@@ -370,6 +397,7 @@
         font-size: 20px;
         cursor: pointer;
         margin-left:80px;
+        z-index:20;
     }
 
     .arrowUp {
@@ -380,5 +408,6 @@
         height: 30px;
         cursor: pointer;
         margin-left: 1000px;
+        z-index:20;
     }
 }

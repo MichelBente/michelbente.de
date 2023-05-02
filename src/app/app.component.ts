@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 // import 'aos/dist/aos.css';
 
@@ -7,13 +7,9 @@ import * as AOS from 'aos';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Portfolio | Michél Bente';
 
-
-  // ngOnInit(): void {
-  //   AOS.init();
-  // }
 
   ngOnInit(): void {
     AOS.init();

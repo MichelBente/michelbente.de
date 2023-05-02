@@ -16,6 +16,7 @@
     right: 0px;
     top: 159px;
     transform: rotate(45deg);
+    z-index:1;
 }
 
 .blurtop1 {
@@ -25,6 +26,7 @@
     right: 0px;
     top: -30px;
     transform: rotate(45deg);
+    z-index:1;
 }
 
 .blurtop2 {
@@ -34,6 +36,7 @@
     right: 0px;
     top: 159px;
     transform: rotate(45deg);
+     z-index:1;
 }
 
 .blurbottom {
@@ -42,6 +45,7 @@
     left: 65.95%;
     right: -61.05%;
     top: 450.5px;
+    z-index:1;
    
 }
 
@@ -51,6 +55,7 @@
     left: -27.95%;
     right: 81.05%;
     top: 850.5px;
+     z-index:1;
 }
 
 .blurbottom3 {
@@ -63,6 +68,7 @@
     width: 800px !important;
     height: 600px !important;
     overflow: hidden;
+    z-index:1;
 }
 
 .blurbottom4 {
@@ -74,6 +80,7 @@
     transform: rotate(0deg);
     width: 440px !important;
     height: 400px !important;
+    z-index:1;
 }
 
 .blurbottom5 {
@@ -85,6 +92,7 @@
     transform: rotate(0deg);
     width: 440px !important;
     height: 600px !important;
+    z-index:1;
 }
 
 .blurbottom6 {
@@ -96,6 +104,7 @@
     transform: rotate(0deg);
     width: 440px !important;
     height: 600px !important;
+    z-index:1;
 }
 
 .shapes {
@@ -106,13 +115,15 @@
     z-index:16;
     width: 700px;
     height: 400px;
-}}
+    z-index:10;
+}
+}
 
 @media (min-height: 1024px) {
     .background {
         width: 400px;
         height: 600px;
-        z-index: 5;
+        z-index: 1;
     }
     
     .blurtop {
@@ -122,6 +133,7 @@
         right: 0px;
         top: 159px;
         transform: rotate(45deg);
+        z-index: 1;
     }
     
     .blurtop1 {
@@ -131,6 +143,7 @@
         right: 0px;
         top: -30px;
         transform: rotate(45deg);
+        z-index: 1;
     }
     
     .blurtop2 {
@@ -142,6 +155,7 @@
         transform: rotate(45deg);
         width: 540px !important;
         height: 500px !important;
+        z-index: 1;
     }
     
     .blurbottom {
@@ -152,6 +166,7 @@
         top: 450.5px;
         width: 440px !important;
         height: 400px !important;
+        z-index: 1;
     }
     
     .blurbottom2 {
@@ -160,6 +175,7 @@
         left: -27.95%;
         right: 81.05%;
         top: 850.5px;
+        z-index: 1;
     }
     
     .blurbottom3 {
@@ -171,6 +187,7 @@
         transform: rotate(180deg);
         width: 800px !important;
         height: 600px !important;
+        z-index: 1;
     }
     
     .blurbottom4 {
@@ -182,6 +199,7 @@
         transform: rotate(0deg);
         width: 640px !important;
         height: 600px !important;
+        z-index: 1;
     }
     
     .blurbottom5 {
@@ -193,6 +211,7 @@
         transform: rotate(0deg);
         width: 840px !important;
         height: 800px !important;
+        z-index: 1;
     }
     
     .blurbottom6 {
@@ -204,6 +223,7 @@
         transform: rotate(0deg);
         width: 440px !important;
         height: 600px !important;
+        z-index: 1;
     }
     
     .shapes {
@@ -214,12 +234,13 @@
         z-index: 16;
         width: 1024px;
         height: 400px;
+        z-index: 10;
     }
 }
 
 @media (min-width: 1440px) {
     .background {
-        z-index: 5;
+        z-index: 1;
     }
     
     .blurtop {
@@ -231,6 +252,7 @@
         transform: rotate(-10deg);
         width: 1200px !important;
         height: 1000px !important;
+        z-index: 1;
     }
     
     .blurtop1 {
@@ -242,6 +264,7 @@
         transform: rotate(45deg);
         width: 1200px !important;
         height: 1000px !important;
+        z-index: 1;
     }
     
     .blurtop2 {
@@ -252,6 +275,7 @@
         transform: rotate(45deg);
         width: 800px !important;
         height: 600px !important;
+        z-index: 1;
     }
     
     .blurbottom {
@@ -262,6 +286,7 @@
         top: 150.5px;
         width: 1200px !important;
         height: 800px !important;
+        z-index: 1;
     }
     
     .blurbottom2 {
@@ -271,6 +296,7 @@
         top: 850.5px;
         width: 1200px !important;
         height: 800px !important;
+        z-index: 1;
     }
     
     .blurbottom3 {
@@ -282,6 +308,7 @@
         transform: rotate(180deg);
         width: 800px !important;
         height: 600px !important;
+        z-index: 1;
     }
     
     .blurbottom4 {
@@ -293,6 +320,7 @@
         transform: rotate(0deg);
         width: 840px !important;
         height: 800px !important;
+        z-index: 1;
     }
     
     .blurbottom5 {
@@ -304,6 +332,7 @@
         transform: rotate(0deg);
         width: 1240px !important;
         height: 1000px !important;
+        z-index: 1;
     }
     
     .blurbottom6 {
@@ -315,6 +344,7 @@
         transform: rotate(0deg);
         width: 840px !important;
         height: 800px !important;
+        z-index: 1;
     }
     
     .shapes {
@@ -325,5 +355,6 @@
         z-index: 16;
         width: 1440px;
         height: 400px;
+        z-index: 10;
     }
 }

@@ -1,238 +1,163 @@
 @media (min-height: 390px) {
-.footer-section {
-    position: absolute;
-    top: 6080px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    display: flex;
-    color: #FFFFFF;
-    z-index: 20;
-    width: 390px;
-    border: 2px solid #05A9E8;
-
-}
-
-.line7 {
-    width: 390px;
-    border: 2px solid #05A9E8;
-}
-
-.logofooter {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 10px;
-    left: 45px;
-    right: 0px;
-    bottom: 0px;
-    cursor: pointer;
-}
-
-.cc {
-    position: absolute;
-    top: 240px;
-    left: 105px;
-    right: 0px;
-    bottom: 0px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 120%;
-    color: #FFFFFF;
-}
-
-.icon-container2 {
-    position: absolute;
-    top: 290px;
-    left: 65px;
-    right: 0px;
-    bottom: 0px;
-    width: 250px;
-}
-
-.iconset2 {
-    gap: 30px;
-    margin: 20px;
-    cursor: pointer;
-}
-
-.impressum {
-    position: absolute;
-    width: 390px;
-    height: 81px;
-    left: 160px;
-    bottom: 0px;
-    top: 400px;
-    right: 0px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 120%;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-}
-
-@media (min-height: 1024px) {
     .footer-section {
-        position: absolute;
-        top: 7000px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
         display: flex;
         color: #FFFFFF;
         z-index: 20;
-        width: 768px;
-        border: 2px solid #05A9E8;
-    
+        width: 390px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 80px;
     }
-    
-    .line7 {
-        width: 768px;
+
+    .blueline {
+        width: 390px;
         border: 2px solid #05A9E8;
     }
-    
+
     .logofooter {
         width: 300px;
         height: 300px;
-        position: absolute;
-        top: 0px;
-        left: 215px;
-        right: 0px;
-        bottom: 0px;
         cursor: pointer;
+        margin-left: 45px;
     }
-    
+
     .cc {
-        position: absolute;
-        top: 250px;
-        left: 220px;
-        right: 0px;
-        bottom: 0px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
-        font-size: 33px;
-        line-height: 120%;
+        font-size: 23px;
         color: #FFFFFF;
+        width: 350px;
+        height: 40px;
+        margin-bottom: 50px;
+        margin-left: 95px;
+        margin-top: -150px;
     }
-    
+
     .icon-container2 {
-        position: absolute;
-        top: 330px;
-        left: 245px;
-        right: 0px;
-        bottom: 0px;
         width: 250px;
     }
-    
+
     .iconset2 {
         gap: 30px;
         margin: 20px;
         cursor: pointer;
     }
-    
+
     .impressum {
-        position: absolute;
-        width: 390px;
-        height: 81px;
-        left: 300px;
-        bottom: 0px;
-        top: 440px;
-        right: 0px;
         font-family: 'Poppins';
-        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-height: 1024px) {
+    .footer-section {
+        display: flex;
+        color: #FFFFFF;
+        z-index: 20;
+        margin-left: 190px;
+    }
+
+    .blueline {
+        width: 768px;
+        border: 2px solid #05A9E8;
+    }
+
+    .logofooter {
+        width: 300px;
+        height: 300px;
+        cursor: pointer;
+        margin-left: 230px;
+    }
+
+    .cc {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 33px;
+        color: #FFFFFF;
+        height: 40px;
+        margin-left: 250px;
+    }
+
+    .icon-container2 {
+        width: 250px;
+    }
+
+    .iconset2 {
+        gap: 30px;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .impressum {
+        font-family: 'Poppins';
         font-weight: 400;
         font-size: 26px;
-        line-height: 120%;
         color: #FFFFFF;
-        margin-bottom: 30px;
+        margin-bottom: 80px;
         cursor: pointer;
+        margin-top: 60px;
+
     }
 }
 
 @media (min-width: 1440px) {
     .footer-section {
-        position: absolute;
-        top: 6000px;
-        left: 340px;
-        right: 0px;
-        bottom: 0px;
         display: flex;
         color: #FFFFFF;
         z-index: 20;
-       
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 500px;
     }
+
     .blueline {
-        position: absolute;
-        top: 0px;
-        left: -360px;
-        right: 0px;
         border: 2px solid #05A9E8;
         width: 1440px;
     }
 
-    
+
     .logofooter {
         width: 300px;
         height: 300px;
-        position: absolute;
-        top: 0px;
-        left: 215px;
-        right: 0px;
-        bottom: 0px;
         cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        margin-left:580px;
     }
-    
+
     .cc {
-        position: absolute;
-        top: 250px;
-        left: 220px;
-        right: 0px;
-        bottom: 0px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 33px;
-        line-height: 120%;
         color: #FFFFFF;
-        width: 450px;
+        margin-left:580px;
     }
-    
+
     .icon-container2 {
-        position: absolute;
-        top: 330px;
-        left: 245px;
-        right: 0px;
-        bottom: 0px;
         width: 250px;
+        margin-left:20px;
     }
-    
+
     .iconset2 {
         gap: 30px;
         margin: 20px;
         cursor: pointer;
     }
-    
+
     .impressum {
-        position: absolute;
-        width: 390px;
-        height: 81px;
-        left: 300px;
-        bottom: 0px;
-        top: 440px;
-        right: 0px;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 120%;
         color: #FFFFFF;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         cursor: pointer;
+        margin-left:20px;
     }
 }
