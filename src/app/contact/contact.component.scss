@@ -155,6 +155,13 @@
         margin-left:75px;
         z-index: 20;
     }
+    .btnSend:hover {
+        transform:scale(1.2);
+        background-color: #4B47FF;
+        text-decoration: none;
+        color: #1bdc8296;
+        text-shadow: 1px solid rgba(255, 255, 255, 0.976);
+    }
 
     .arrowUp {
         border: 2px solid white;
@@ -164,8 +171,15 @@
         margin-left: 300px;
         z-index: 20;
     }
+    .arrowUp:hover {
+    transform:scale(1.2);
+    transform:translateY(1.8);
+    background-color: #4B47FF;
+    text-decoration: none;
+    color: #1bdc8296;
+    text-shadow: 1px solid rgba(255, 255, 255, 0.976);
 }
-
+}
 @media (min-height: 1024px) {
     .contact-section {
         display: flex;

@@ -66,8 +66,24 @@
         font-size: 16px;
         cursor: pointer;
         margin-top: 80px;
+        text-decoration: none;
+    }
+    .letstalkbtn:hover {
+        transform:scale(1.2);
+        background-color: #4B47FF;
+        text-decoration: none;
+        color: #1bdc8296;
+        text-shadow: 1px solid rgba(255, 255, 255, 0.976);
     }
 }
+
+.iconset {
+color: #00BEE8;
+}
+.iconset:hover {
+    transform: scale(1.2);
+}
+
 
 .icon-section {
     display: flex;
@@ -99,10 +115,18 @@
 .myPicture {
     width: 444px;
     height: 450px;
-    z-index: 4;
+
 }
 
-
+.ownshade {
+    background-color: #141D2F; 
+    z-index: 999;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 5%;
+    border-radius: 25%;
+    transform:rotateX(155deg);
+    margin-top:-10px;
+}
 
 
 
@@ -173,9 +197,21 @@
     .myPicture {
         width: 444px;
         height: 450px;
-        z-index: 15;
         margin-top: 120px;
+        z-index:10;
     }
+
+.ownshade {
+    background-color: #141D2F; 
+    height: 20px;
+    width: 390px;
+    z-index: 999;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 5%;
+    border-radius: 45%;
+    transform:rotateY(155deg);
+    margin-top:-10px;
+}
 }
 
 @media (min-height: 1024px) {
@@ -253,6 +289,18 @@
         z-index: 15;
         margin-top: 150px;
     }
+}
+.ownshade {
+    // background-color: #141D2F; 
+    background-color: #1158e6; 
+    height: 320px;
+    width: 768px;
+    z-index: 999;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 5%;
+    border-radius: 25%;
+    transform:rotateX(155deg);
+    margin-top:-20px;
 }
 
 @media (min-width: 1440px) {

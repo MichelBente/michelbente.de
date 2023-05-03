@@ -37,6 +37,31 @@
     justify-content: center;
 }
 
+.letstalkbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    background: #00BEE8;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.letstalkbtn:hover {
+    transform: scale(1.2);
+    background-color: #4B47FF;
+    text-decoration: none;
+    color: #1bdc8296;
+    text-shadow: 1px solid rgba(255, 255, 255, 0.976);
+}
+
+
 @media (min-width: 390px) {
     .skills-section {
         display: flex;
@@ -139,6 +164,15 @@
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 16px;
+        cursor:pointer;
+    }
+
+    .letstalkbtn:hover {
+        transform: scale(1.2);
+        background-color: #4B47FF;
+        text-decoration: none;
+        color: #1bdc8296;
+        text-shadow: 1px solid rgba(255, 255, 255, 0.976);
     }
 }
 
@@ -242,9 +276,18 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 120%;
+        cursor:pointer;
+    }
 
+    .letstalkbtn:hover {
+        transform: scale(1.2);
+        background-color: #4B47FF;
+        text-decoration: none;
+        color: #1bdc8296;
+        text-shadow: 1px solid rgba(255, 255, 255, 0.976);
     }
 }
+
 
 @media (min-width: 1440px) {
     .skills-section {
@@ -331,7 +374,6 @@
         margin-top: 100px;
         margin-right: 110px;
         margin-left: 50px;
-       
     }
 
     .letstalkbtn {
@@ -350,5 +392,14 @@
         margin-left: 295px;
         margin-top: -80px;
         margin-bottom: 100px;
+        cursor:pointer;
+
+        .letstalkbtn:hover {
+            transform: scale(1.2);
+            background-color: #4B47FF;
+            text-decoration: none;
+            color: #1bdc8296;
+            text-shadow: 1px solid rgba(255, 255, 255, 0.976);
+        }
     }
 }

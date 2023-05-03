@@ -3,6 +3,7 @@
     z-index: 27;
     color: #FFFFFF;
     padding-right: 20px;
+    z-index: 28;
 
 
     .headline-aboutme {
@@ -11,80 +12,98 @@
         font-size: 45px;
         z-index: 18;
         color: #FFFFFF;
+        width: 350px;
+        z-index: 28;
     }
 
-
-.text {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    z-index: 18;
-    color: #FFFFFF;
-}
-
-.personal-stuff {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-
-    .lightbulbpart {
-        display: flex;
+    .headsec {
+        padding-left: 20px;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding-top: 40px;
-        z-index: 20;
-        gap: 20px;
+        z-index: 28;
     }
 
-    .puzzlepart {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding-top: 40px;
-        z-index: 20;
-        gap:20px;
-    }
-
-    .imagepersonalstuff {
-      margin-left: -60px; 
-    }
-
-    .imagepersonalstuff2 {
-        margin-left: -60px; 
-    }
-
-    .text2 {
+    .text {
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 16px;
         z-index: 18;
         color: #FFFFFF;
-        padding-left: 15px;
-        padding-right: 50px;
+        z-index: 28;
     }
 
-    .text3 {
+    .personal-stuff {
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 16px;
-        z-index: 18;
         color: #FFFFFF;
-        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 180px;
+        margin-left: -280px;
+        z-index: 28;
+
+        .lightbulbpart {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+            z-index: 20;
+            gap: 20px;
+             z-index: 28;
+        }
+
+        .puzzlepart {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+            z-index: 20;
+            gap: 20px;
+            z-index: 28;
+        }
+
+        .imagepersonalstuff {
+            margin-left: -60px;
+             z-index: 28;
+        }
+
+        .imagepersonalstuff2 {
+            margin-left: -60px;
+             z-index: 28;
+        }
+
+        .text2 {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 16px;
+            z-index: 28;
+            color: #FFFFFF;
+            padding-left: 15px;
+            padding-right: 50px;
+
+        }
+
+        .text3 {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 16px;
+            z-index: 28;
+            color: #FFFFFF;
+            padding-right: 50px;
+        }
     }
 }
-}
+
 .line8 {
-   display: none;
+    display: none;
 }
 
 .image2 {
-   display: none;
+    display: none;
 }
+
 .ellipse {
     display: none;
 }
@@ -196,13 +215,13 @@
 
 // @media (min-height: 1024px) {
 //     .headline-section {
-      
+
 //         z-index: 17;
 //         color: #FFFFFF;
 
 
 //         .headline-aboutme {
-          
+
 //             width: 326px;
 //             height: 54px;
 //             font-family: 'Poppins';
@@ -392,7 +411,7 @@
 
 //     .line8 {
 //         display:flex;
-      
+
 //     }
 
 //     .image2 {

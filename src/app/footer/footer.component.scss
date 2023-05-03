@@ -29,7 +29,6 @@
         color: #FFFFFF;
         width: 350px;
         height: 40px;
-        margin-bottom: 50px;
         margin-left: 95px;
         margin-top: -150px;
     }
@@ -42,6 +41,10 @@
         gap: 30px;
         margin: 20px;
         cursor: pointer;
+        padding-top: 30px;
+    }
+    .iconset2:hover {
+    transform:scale(1.4);
     }
 
     .impressum {
@@ -52,6 +55,11 @@
         cursor: pointer;
         margin-bottom: 50px;
         margin-top: 50px;
+    }
+    .impressum:hover {
+        transform: scale(1,2);
+        text-decoration:underline;
+        color:#fbff05;
     }
 }
 
@@ -93,6 +101,9 @@
         margin: 20px;
         cursor: pointer;
     }
+    .iconset2:hover {
+        transform:scale(1.4);
+    }
 
     .impressum {
         font-family: 'Poppins';
@@ -102,7 +113,11 @@
         margin-bottom: 80px;
         cursor: pointer;
         margin-top: 60px;
-
+    }
+    .impressum:hover {
+        transform: scale(1,2);
+        text-decoration:underline;
+        color:#fbff05;
     }
 }
 
@@ -130,6 +145,7 @@
         justify-content: center;
         align-items: center;
         margin-left:580px;
+        transform:matrix3d(180deg);
     }
 
     .cc {
@@ -150,6 +166,9 @@
         margin: 20px;
         cursor: pointer;
     }
+    .iconset2:hover {
+        transform:scale(1.4);
+    }
 
     .impressum {
         font-family: 'Poppins';
@@ -159,5 +178,10 @@
         margin-bottom: 50px;
         cursor: pointer;
         margin-left:20px;
+    }
+    .impressum:hover {
+        transform: scale(1,2);
+        text-decoration:underline;
+        color:#fbff05;
     }
 }
