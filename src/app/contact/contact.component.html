@@ -1,5 +1,5 @@
 <div class="contact-section" id="contact">
-    <div class="contact-headline">
+    <div class="contact-headline" data-aos="fade-left" data-aos-duration="2000">
     <span class="headline-contact">Contact</span>    
     <img class="line4" src="/assets/img/icons/icon/icon/line4.png" alt="blue line">
     </div>
@@ -18,7 +18,7 @@
     <div class="inputfields-section">
         <!-- <form action="https://michel-helmut-bente.developerakademie.net/send_mail/send_mail.php" method="post"> -->
         <div class="inputfields">
-            <div class="contactForm">
+            <div class="contactForm" data-aos="zoom-in" data-aos-duration="2000">
                 <form [formGroup]="myForm" (ngSubmit)="onSubmit(formContact)" #formContact="ngForm">
                     <div class="relative">
                         <input formControlName="name" class="yourName" type="text" placeholder="Your name" required id="nameInput">
