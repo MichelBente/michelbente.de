@@ -1,23 +1,39 @@
-@media (min-width: 390px) {
-    header {
+    .header {
         background-color: #141D2F;
         position: fixed;
         top: -40px;
         left: 0;
         right: 0;
-
         display: flex;
         align-items: center;
         justify-content: space-between;
-
         padding: 25px 20px;
+        z-index: -1;
 
+        .logo {
+            width: 150px!important;
+            height:150px!important;
+            z-index: 999;
+        }
 
+    }
+@media (min-width: 390px) {
+    header {
+        background-color: #141D2F;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 20px;
         z-index: -1;
 
         .logo {
             width: 150px;
             z-index: 999;
+
         }
 
 
@@ -32,6 +48,7 @@
         .burger {
             position: relative;
             left: 80px;
+            right:30px;
             width: 40px;
             height: 30px;
             background: transparent;
@@ -125,18 +142,13 @@
         }
     }
 }
-@media (min-width: 768px) {
-    .menu {
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-        z-index: 999;
-    }
-
+@media (min-width: 767px) {
 
     .burger {
         position: relative;
-        left: 80px;
+        left: 0px;
+        top: -10px;
+        right:20px;
         width: 40px;
         height: 30px;
         background: transparent;
@@ -198,7 +210,7 @@
 
     .logo {
         position: absolute;
-        top: 0px;
+        top: 30px;
         left: 10px;
         right: 80px;
         bottom: 0;
@@ -206,25 +218,18 @@
     }
 
 
-    .menu {
-        width: 60px;
-        height: 60px;
-        z-index: 999;
-        cursor: pointer;
-    }
-
-    .burger {
-        width: 60px;
-        height: 60px;
-        z-index: 999;
-        position: absolute;
-        top: 40px;
-        left: 680px;
-        right: 20px;
-        bottom: 0;
-        width: 40px;
-        height: 40px;
-    }
+        .burger {
+            position: absolute;
+            left: 0px;
+            top: 25px;
+            right:30px;
+            width: 40px;
+            height: 30px;
+            background: transparent;
+            cursor: pointer;
+            display: block;
+        }
+    
 
     .links {
         display: none;
@@ -245,18 +250,13 @@
 
     .logo {
         position: absolute;
-        top: 0px;
+        top: 30px;
         left: 30px;
         right: 80px;
         bottom: 0;
         z-index: 999;
     }
 
-    .menu {
-        width: 120px;
-        height: 120px;
-        z-index: 999;
-    }
 
     .burger {
         display: none;
@@ -267,7 +267,7 @@
         justify-content: flex-end;
         align-items: center;
         position: absolute;
-        top: -30px;
+        top: 30px;
         left: 80px;
         right: 40px;
         bottom: 0;
@@ -279,7 +279,7 @@
 
     .links a:hover {
         text-decoration: none;
-        color: #1CE6B6;
+        color: #1CE6B6!important;
         transform: scaleX(1.2);
     }
 

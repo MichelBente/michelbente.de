@@ -3,7 +3,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
     z-index: 5;
 
     .myText {
@@ -88,7 +88,8 @@ color: #00BEE8;
 .icon-section {
     display: flex;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 130px;
+    padding-bottom:20px;
 }
 
 .line-container {
@@ -112,6 +113,40 @@ color: #00BEE8;
     margin-right: 20px;
 }
 
+.scrollDown {
+    position: absolute;
+    bottom: 60px;
+    left: -25px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    z-index: 300;
+    transform: rotate(90deg);
+    color: #FFFFFF;
+    animation: pulse 2s infinite;
+    .scrollDownText{        
+        font-weight: 400;
+    }
+    .scrollDownImg{
+        transform: rotate(270deg);
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95) rotate(90deg);
+        }
+    
+        70% {
+            transform: scale(1.0) rotate(90deg);
+        }
+    
+        100% {
+            transform: scale(0.95) rotate(90deg);
+        }
+    }
+}
+
+
 .myPicture {
     width: 444px;
     height: 450px;
@@ -120,7 +155,7 @@ color: #00BEE8;
 
 .ownshade {
     background-color: #141D2F; 
-    z-index: 999;
+    z-index: 20;
     border-top-left-radius: 45%;
     border-top-right-radius: 5%;
     border-radius: 25%;
@@ -205,9 +240,9 @@ color: #00BEE8;
 
 .ownshade {
     background-color: #141D2F; 
-    height: 20px;
+    height: 120px;
     width: 390px;
-    z-index: 999;
+    z-index: 20;
     border-top-left-radius: 45%;
     border-top-right-radius: 5%;
     border-radius: 45%;
@@ -221,6 +256,8 @@ color: #00BEE8;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top:140px;
+        z-index: 200;
     }
 
     .myText {
@@ -295,14 +332,14 @@ color: #00BEE8;
 .ownshade {
     // background-color: #141D2F; 
     
-    height: 120px;
+    height: 290px;
     width: 768px;
-    z-index: 999;
+    z-index: 20;
     border-top-left-radius: 45%;
     border-top-right-radius: 5%;
     border-radius: 25%;
     transform:rotateX(155deg);
-    margin-top:-20px;
+    margin-top:-10px;
 }
 
 @media (min-width: 1440px) {
@@ -310,6 +347,7 @@ color: #00BEE8;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top:100px;
     }
 
     .myText {
@@ -319,30 +357,24 @@ color: #00BEE8;
     .iam {
         z-index: 6;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 60px;
-        line-height: 120%;
         color: #1bdc8296;
     }
 
     .myName {
         z-index: 6;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 75px;
-        line-height: 120%;
         color: #FFFFFF;
     }
 
     .myJob {
         z-index: 6;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 49px;
-        line-height: 120%;
         color: #4B47FF;
     }
 
@@ -360,7 +392,6 @@ color: #00BEE8;
         border-radius: 10px;
         color: #FFFFFF;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 26px;
         cursor: pointer;

@@ -1,9 +1,18 @@
+.portfolio-content {
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    z-index: 300px;
+}
+
 @media (min-height: 390px) {
     .portfolio-content {
         display: flex;
         color: #FFFFFF;
-        z-index: 20;
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .portfolio-headline {
@@ -12,19 +21,13 @@
         font-size: 45px;
         z-index: 21;
         color: #FFFFFF;
-        justify-content: center;
-        margin-left: 100px;
     }
 
-    .text {
-        margin-left: -30px;
-    }
 
     .line3 {
+        margin-left: -20px;
         padding-bottom: 10px;
-        padding-right: 40px;
-        margin-left: -100px;
-        margin-top: 85px;
+        padding-right:20px;
     }
 
     .textPortfolio {
@@ -32,8 +35,10 @@
         font-weight: 400;
         font-size: 16px;
         color: #FFFFFF;
-        margin-top: 150px;
+    }
 
+    .retakemordor {
+        width: 300px;
     }
 
     .mockup1 {
@@ -42,9 +47,7 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left: -30px !important;
-        padding-right: 20px;
-        
+        cursor: pointer;
     }
 
     .mockup2 {
@@ -53,9 +56,8 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left: -30px !important;
-        padding-right: 20px;
         margin-bottom: 100px;
+        cursor: pointer;
     }
 
     .projectheadline {
@@ -88,17 +90,7 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        margin-top: 200px;
-        margin-left: -210px;
         flex-direction: column;
-    }
-
-    .mockup2 {
-        cursor: pointer;
-    }
-
-    .mockup3 {
-        cursor: pointer;
     }
 
     .livetestBtn {
@@ -116,8 +108,9 @@
         font-size: 16px;
         cursor: pointer;
     }
+
     .livetestBtn:hover {
-        transform:scale(1.2);
+        transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none;
         color: #1bdc8296;
@@ -137,8 +130,9 @@
         background-color: #141D2F;
         cursor: pointer;
     }
-     .githubBtn:hover {
-        transform:scale(1.2);
+
+    .githubBtn:hover {
+        transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none;
         color: #1bdc8296;
@@ -150,7 +144,7 @@
     .portfolio-content {
         display: flex;
         color: #FFFFFF;
-        z-index: 20;
+       overflow-x: hidden;
     }
 
     .portfolio-headline {
@@ -160,14 +154,12 @@
         z-index: 21;
         color: #FFFFFF;
         justify-content: center;
-        margin-left: 170px;
-
     }
 
     .line3 {
         padding-bottom: 10px;
-        padding-right: 100px;
-        margin-left: -160px;
+        padding-right: 70px;
+        margin-left: -100px;
     }
 
     .textPortfolio {
@@ -185,10 +177,7 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left: -30px !important;
-        padding-right: 20px;
         cursor: pointer;
-
     }
 
     .mockup2 {
@@ -197,11 +186,7 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left: -30px !important;
-        padding-right: 20px;
         cursor: pointer;
-        margin-top: 50px;
-        margin-bottom: 150px;
     }
 
     .projectheadline {
@@ -217,7 +202,6 @@
         font-weight: 400;
         font-size: 23px;
         color: #00BEE8;
-        margin-left: 5px;
     }
 
     .projectDescription {
@@ -235,8 +219,6 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        margin-top: 200px;
-        margin-left: -450px;
         flex-direction: column;
     }
 
@@ -259,8 +241,9 @@
         font-size: 16px;
         cursor: pointer;
     }
+
     .livetestBtn:hover {
-        transform:scale(1.2);
+        transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none;
         color: #1bdc8296;
@@ -280,8 +263,9 @@
         background-color: #141D2F;
         cursor: pointer;
     }
-     .githubBtn:hover {
-        transform:scale(1.2);
+
+    .githubBtn:hover {
+        transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none;
         color: #1bdc8296;
@@ -295,8 +279,7 @@
         display: flex;
         color: #FFFFFF;
         z-index: 20;
-        overflow: hidden;
-        margin-left:100px;
+        overflow-x: hidden;
     }
 
     .portfolio-headline {
@@ -305,15 +288,12 @@
         font-size: 55px;
         z-index: 21;
         color: #FFFFFF;
-        justify-content: center;
-        align-items: center;
-        margin-left: 120px;
     }
 
     .line3 {
         padding-bottom: 10px;
-        padding-right: 200px;
-        margin-left: -100px;
+        padding-right: 340px;
+        margin-left: -480px;
     }
 
     .textPortfolio {
@@ -322,7 +302,7 @@
         font-size: 26px;
         color: #FFFFFF;
         width: 550px;
-        padding-left: 155px;
+        margin-left: -115px;
     }
 
     .projectheadline {
@@ -350,6 +330,10 @@
         color: #FFFFFF;
     }
 
+    .retakemordor {
+        width: 600px;
+    }
+
     .mockup1 {
         display: flex;
         justify-content: center;
@@ -357,8 +341,6 @@
         gap: 10px;
         cursor: pointer;
         margin-top: 40px;
-        margin-left: -110px !important;
-
     }
 
     .mockup2 {
@@ -366,12 +348,9 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-left: -30px !important;
-        padding-right: 20px;
         cursor: pointer;
         margin-top: 50px;
-        margin-left: -110px !important;
-        margin-bottom: 120px;
+
     }
 
     .mockups {
@@ -402,8 +381,9 @@
         font-size: 23px;
         cursor: pointer;
     }
+
     .livetestBtn:hover {
-        transform:scale(1.2);
+        transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none;
         color: #1bdc8296;
@@ -423,8 +403,9 @@
         background-color: #141D2F;
         cursor: pointer;
     }
-     .githubBtn:hover {
-        transform:scale(1.2);
+
+    .githubBtn:hover {
+        transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none;
         color: #1bdc8296;
