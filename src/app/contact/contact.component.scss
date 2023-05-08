@@ -363,7 +363,7 @@
     .yourName {
         padding: 15px 25px;
         gap: 10px;
-        width: 380px;
+        width: 580px;
         height: 40px;
         background: #141D2F;
         border: 1px solid #4B47FF;
@@ -375,7 +375,7 @@
     .yourEmail {
         padding: 15px 25px;
         gap: 10px;
-        width: 380px;
+        width: 580px;
         height: 40px;
         background: #141D2F;
         border: 1px solid #4B47FF;
@@ -387,7 +387,7 @@
     .yourMessage {
         padding: 15px 25px;
         gap: 10px;
-        width: 380px;
+        width: 580px;
         height: 162px;
         background: #141D2F;
         border: 1px solid #4B47FF;
@@ -413,10 +413,14 @@
         color: #FFFFFF;
         font-size: 20px;
         cursor: pointer;
-        margin-left:80px;
         z-index:20;
+        margin-left: 180px;
     }
-
+.centerBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     .arrowUp {
         border: 2px solid white;
         border-radius: 100%;
@@ -424,7 +428,7 @@
         width: 30px;
         height: 30px;
         cursor: pointer;
-        margin-left: 1000px;
+        // margin-left: 1000px;
         z-index:20;
     }
 }

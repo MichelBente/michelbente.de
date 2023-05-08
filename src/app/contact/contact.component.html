@@ -1,55 +1,67 @@
 <div class="contact-section" id="contact">
     <div class="contact-headline" data-aos="fade-left" data-aos-duration="2000">
-    <span class="headline-contact">Contact</span>    
-    <img class="line4" src="/assets/img/icons/icon/icon/line4.png" alt="blue line">
+        <span class="headline-contact">Contact</span>
+        <img class="line4" src="/assets/img/icons/icon/icon/line4.png" alt="blue line">
     </div>
     <div class="question">
         <img class="line6" src="/assets/img/icons/icon/icon/line6.png" alt="blue line">
         <span class="questionline">Got a problem to solve?</span>
     </div>
     <div class="textcontainer">
-    <span class="contactText">
-        Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to your projects with my work.
-    </span>
-    <span class="contactText2">
-        Need a Frontend developer? <b>Contact me!</b>
-    </span>
-</div>
+        <span class="contactText">
+            Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to your
+            projects with my work.
+        </span>
+        <span class="contactText2">
+            Need a Frontend developer? <b>Contact me!</b>
+        </span>
+    </div>
     <div class="inputfields-section">
         <!-- <form action="https://michel-helmut-bente.developerakademie.net/send_mail/send_mail.php" method="post"> -->
         <div class="inputfields">
             <div class="contactForm" data-aos="zoom-in" data-aos-duration="2000">
                 <form [formGroup]="myForm" (ngSubmit)="onSubmit(formContact)" #formContact="ngForm">
                     <div class="relative">
-                        <input formControlName="name" class="yourName" type="text" placeholder="Your name" required id="nameInput">
-                        <ng-container *ngIf="myForm.get('name')?.invalid && myForm.get('name')?.touched"><img class="inputError" src="assets/img/icon/invalid.svg" alt=""></ng-container>
-                        <ng-container *ngIf="myForm.get('name')?.valid"><img class="inputError" src="assets/img/icon/valid.svg" alt=""></ng-container>
+                        <input formControlName="name" class="yourName" type="text" placeholder="Your name" required
+                            id="nameInput">
+                        <ng-container *ngIf="myForm.get('name')?.invalid && myForm.get('name')?.touched"><img
+                                class="inputError" src="assets/img/icon/invalid.svg" alt=""></ng-container>
+                        <ng-container *ngIf="myForm.get('name')?.valid"><img class="inputError"
+                                src="assets/img/icon/valid.svg" alt=""></ng-container>
                         <ng-container *ngIf="myForm.get('name')?.invalid && isSubmitted">
-                                <p class="error">Your name is required!</p>
+                            <p class="error">Your name is required!</p>
                         </ng-container>
                     </div>
-            <!-- <input class="yourName" type="text" required placeholder="Your name" minlength="3" name="name">  -->
-            <div class="relative">
-                <input formControlName="email" class="yourEmail" type="email" placeholder="Your email" required id="emailInput">
-                <ng-container *ngIf="myForm.get('email')?.invalid && myForm.get('email')?.touched"><img class="inputError" src="assets/img/icon/invalid.svg" alt=""></ng-container>
-                <ng-container *ngIf="myForm.get('email')?.valid"><img class="inputError" src="assets/img/icon/valid.svg" alt=""></ng-container>
-                <ng-container *ngIf="myForm.get('email')?.invalid && isSubmitted">
-                        <p class="error">Your email is required!</p>
-                </ng-container>
+                    <!-- <input class="yourName" type="text" required placeholder="Your name" minlength="3" name="name">  -->
+                    <div class="relative">
+                        <input formControlName="email" class="yourEmail" type="email" placeholder="Your email" required
+                            id="emailInput">
+                        <ng-container *ngIf="myForm.get('email')?.invalid && myForm.get('email')?.touched"><img
+                                class="inputError" src="assets/img/icon/invalid.svg" alt=""></ng-container>
+                        <ng-container *ngIf="myForm.get('email')?.valid"><img class="inputError"
+                                src="assets/img/icon/valid.svg" alt=""></ng-container>
+                        <ng-container *ngIf="myForm.get('email')?.invalid && isSubmitted">
+                            <p class="error">Your email is required!</p>
+                        </ng-container>
+                    </div>
+                    <!-- <input class="yourEmail" type="email" required placeholder="Your email" minlength="6"> -->
+                    <div class="relative">
+                        <textarea formControlName="message" class="yourMessage" rows="10" type="text"
+                            placeholder="Your message" required id="messageInput"></textarea>
+                        <ng-container *ngIf="myForm.get('message')?.invalid && myForm.get('message')?.touched"><img
+                                class="textError" src="assets/img/icon/invalid.svg" alt=""></ng-container>
+                        <ng-container *ngIf="myForm.get('message')?.valid"><img class="textError"
+                                src="assets/img/icon/valid.svg" alt=""></ng-container>
+                        <ng-container *ngIf="myForm.get('message')?.invalid && isSubmitted">
+                            <p class="error">Your message is required!</p>
+                        </ng-container>
+                    </div>
+                    <div class="centerBtn">
+                        <!-- <input class="yourMessage" type="text" required placeholder="Your message" name="message"> -->
+                        <button type="submit" class="btnSend" [disabled]="emailSent">Send Message :)</button>
+                        <img class="arrowUp" src="/assets/img/icons/icon/icon/arrowup.png" alt="arrow up">
+                    </div>
+                </form>
             </div>
-            <!-- <input class="yourEmail" type="email" required placeholder="Your email" minlength="6"> -->
-            <div class="relative">
-                <textarea formControlName="message" class="yourMessage" rows="10" type="text" placeholder="Your message" required id="messageInput"></textarea>
-                <ng-container *ngIf="myForm.get('message')?.invalid && myForm.get('message')?.touched"><img class="textError" src="assets/img/icon/invalid.svg" alt=""></ng-container>
-                <ng-container *ngIf="myForm.get('message')?.valid"><img class="textError" src="assets/img/icon/valid.svg" alt=""></ng-container>
-                <ng-container *ngIf="myForm.get('message')?.invalid && isSubmitted">
-                        <p class="error">Your message is required!</p>
-                </ng-container>
-            </div>
-            
-            <!-- <input class="yourMessage" type="text" required placeholder="Your message" name="message"> -->
-            <button type="submit" class="btnSend" [disabled]="emailSent">Send Message :)</button>
-        </form>
-    </div>
-   <img class="arrowUp" src="/assets/img/icons/icon/icon/arrowup.png" alt="arrow up">
-</div>
+           
+        </div>
