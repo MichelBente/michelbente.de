@@ -18,11 +18,11 @@ export class ContactComponent {
     message: new FormControl('', [Validators.required, Validators.minLength(10)])
   })
 
-mailmestring = "mailto:bentemichel@web.de";
+mailmestring = "mailto:info@michelbente.com";
 
 constructor(private http: HttpClient) {}
 post = {
-  endPoint: 'https://michel-helmut-bente.developerakademie.net/michelbente/src/send_mail.php',
+  endPoint: 'https://michelbente/send_mail.php',
   body: (payload: any) => JSON.stringify(payload),
   options: {
     headers: {

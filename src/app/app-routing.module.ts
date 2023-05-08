@@ -4,6 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ImprintComponent } from './imprint/imprint.component';
 import { HomescreenComponent } from './homescreen/homescreen.component';
 
+
 const routes: Routes = [
   { path: '', component: HomescreenComponent},
   { path: 'imprint', component: ImprintComponent },
