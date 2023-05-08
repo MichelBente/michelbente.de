@@ -8,6 +8,53 @@
     z-index: 300px;
 }
 
+.gitHubBtn {
+    width: 77px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #F5F5F5;
+    width: 152px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: #141D2F;
+    cursor: pointer;
+    text-decoration: none !important;
+
+    .gitHubBtn:hover {
+        transform: scale(1.2);
+        background-color: #4B47FF !important;
+        text-decoration: none;
+        color: #1bdc8296;
+        text-shadow: 1px solid rgba(255, 255, 255, 0.976);
+    }
+}
+
+.livetestBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    width: 152px;
+    height: 58px;
+    background: #4B47FF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 23px;
+    cursor: pointer;
+
+    .livetestBtn:hover {
+        transform: scale(1.2);
+        background-color: #141D2F;
+        text-decoration: none;
+        color: #1bdc8296;
+        text-shadow: 1px solid rgba(255, 255, 255, 0.976);
+    }
+}
+
 @media (min-height: 390px) {
     .portfolio-content {
         display: flex;
@@ -27,7 +74,7 @@
     .line3 {
         margin-left: -20px;
         padding-bottom: 10px;
-        padding-right:20px;
+        padding-right: 20px;
     }
 
     .textPortfolio {
@@ -111,7 +158,7 @@
 
     .livetestBtn:hover {
         transform: scale(1.2);
-        background-color: #4B47FF;
+        background-color: #141D2F;
         text-decoration: none;
         color: #1bdc8296;
         text-shadow: 1px solid rgba(255, 255, 255, 0.976);
@@ -131,7 +178,7 @@
         cursor: pointer;
     }
 
-    .githubBtn:hover {
+    .gitHubBtn:hover {
         transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none;
@@ -144,7 +191,7 @@
     .portfolio-content {
         display: flex;
         color: #FFFFFF;
-       overflow-x: hidden;
+        overflow-x: hidden;
     }
 
     .portfolio-headline {
@@ -244,7 +291,7 @@
 
     .livetestBtn:hover {
         transform: scale(1.2);
-        background-color: #4B47FF;
+        background-color: #141D2F;
         text-decoration: none;
         color: #1bdc8296;
         text-shadow: 1px solid rgba(255, 255, 255, 0.976);
@@ -264,7 +311,7 @@
         cursor: pointer;
     }
 
-    .githubBtn:hover {
+    .gitHubBtn:hover {
         transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none;
@@ -384,7 +431,7 @@
 
     .livetestBtn:hover {
         transform: scale(1.2);
-        background-color: #4B47FF;
+        background-color: #141D2F;
         text-decoration: none;
         color: #1bdc8296;
         text-shadow: 1px solid rgba(255, 255, 255, 0.976);
@@ -404,7 +451,7 @@
         cursor: pointer;
     }
 
-    .githubBtn:hover {
+    .gitHubBtn:hover {
         transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none;
