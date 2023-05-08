@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
-  emailstring = "mailto:bentemichel@web.de"
+  emailstring = "mailto:info@michelbente.com"
   linkstring = "open:https://github.com/MichelBente"
 
   github = 'https://github.com/MichelBente';
