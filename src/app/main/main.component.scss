@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
-    z-index: 5;
+    z-index: 55;
 
     .myText {
         display: flex;
@@ -14,7 +14,7 @@
     }
 
     .iam {
-        z-index: 6;
+        z-index: 30;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
@@ -27,7 +27,7 @@
     }
 
     .myName {
-        z-index: 6;
+        z-index: 56;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
@@ -38,7 +38,7 @@
     }
 
     .myJob {
-        z-index: 6;
+        z-index: 56;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
@@ -76,11 +76,18 @@
         color: #1bdc8296;
         text-shadow: 1px solid rgba(255, 255, 255, 0.976);
     }
+    .scrollDownImg {
+        transform: rotate(90deg);
+        width:20px;
+        height: 20px;
+        margin-left:-35px;
+    }
 }
 
 .iconset {
     color: #00BEE8;
     cursor: pointer;
+    z-index: 50;
 }
 
 .iconset:hover {
@@ -118,7 +125,7 @@
 
 .scrollDown {
     position: absolute;
-    bottom: 60px;
+    bottom: 80px;
     left: -25px;
     display: flex;
     justify-content: flex-start;
@@ -133,7 +140,7 @@
     }
 
     .scrollDownImg {
-        transform: rotate(270deg);
+        transform: rotate(90deg);
     }
 
     @keyframes pulse {
