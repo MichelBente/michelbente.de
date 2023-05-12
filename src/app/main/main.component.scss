@@ -40,7 +40,6 @@
     .myJob {
         z-index: 56;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 700;
         font-size: 29px;
         color: #4B47FF;
@@ -51,7 +50,6 @@
 
     .letstalkbtn {
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 15px 30px;
@@ -61,7 +59,6 @@
         border-radius: 10px;
         color: #FFFFFF;
         font-family: 'Poppins';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         cursor: pointer;
@@ -73,7 +70,7 @@
         transform: scale(1.2);
         background-color: #4B47FF;
         text-decoration: none!important;
-        color: #1bdc8296;
+        color: #ffffff;
         text-shadow: 1px solid rgba(255, 255, 255, 0.976);
     }
     .scrollDownImg {
@@ -431,6 +428,9 @@
         z-index: 15;
         margin-top: 150px;
     }
+.scrollDown {
+    margin-bottom: -40px;
+}
 }
 
 @media (min-width: 2565px) {
