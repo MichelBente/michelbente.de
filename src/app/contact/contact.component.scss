@@ -2,7 +2,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 @media (min-height: 390px) {
@@ -110,6 +109,7 @@
         margin-bottom: 20px;
         z-index: 20;
         color: #FFFFFF;
+        font-family: 'Poppins';
     }
 
     .yourEmail {
@@ -123,6 +123,7 @@
         margin-bottom: 20px;
         z-index: 20;
         color: #FFFFFF;
+        font-family: 'Poppins';
     }
 
     .yourMessage {
@@ -136,6 +137,7 @@
         color: #FFFFFF;
         margin-bottom: 20px;
         z-index: 20;
+        font-family: 'Poppins';
     }
 
     ::placeholder {
@@ -256,6 +258,7 @@
         color: #FFFFFF;
         z-index: 20;
         color: #FFFFFF;
+        font-family: 'Poppins';
     }
 
     .yourEmail {
@@ -269,6 +272,7 @@
         color: #FFFFFF;
         margin-bottom: 20px;
         z-index: 20;
+        font-family: 'Poppins';
     }
 
     .yourMessage {
@@ -282,6 +286,7 @@
         color: #FFFFFF;
         margin-bottom: 20px;
         z-index: 20;
+        font-family: 'Poppins';
     }
 
     ::placeholder {
@@ -396,6 +401,8 @@
         border-radius: 10px;
         color: #FFFFFF;
         z-index: 20;
+        font-family: 'Poppins';
+        font-size: 16px;
     }
 
     .yourEmail {
@@ -408,6 +415,8 @@
         border-radius: 10px;
         color: #FFFFFF;
         z-index: 20;
+        font-family: 'Poppins';
+        font-size: 16px;
     }
 
     .yourMessage {
@@ -420,6 +429,8 @@
         border-radius: 10px;
         color: #FFFFFF;
         z-index: 20;
+        font-size: 16px;
+        font-family: 'Poppins';
     }
 
     ::placeholder {
@@ -438,6 +449,148 @@
         border-radius: 10px;
         color: #FFFFFF;
         font-size: 20px;
+        cursor: pointer;
+        z-index: 20;
+        // margin-left: 180px;
+    }
+
+    .centerBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .arrowUp {
+        border: 2px solid white;
+        border-radius: 100%;
+        transform: rotate(0deg);
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: 600px;
+        z-index: 20;
+    }
+}
+
+@media (min-width: 2565px) {
+    .contact-section {
+        display: flex;
+        color: #FFFFFF;
+        z-index: 20;
+    }
+
+    .relative {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headline-contact {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 65px!important;
+        text-align: center;
+        color: #FFFFFF;
+        z-index: 20;
+    }
+
+    .questionline {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 43px!important;
+        color: #FFFFFF;
+        z-index: 20;
+    }
+
+    .contactText {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 36px!important;
+        color: #FFFFFF;
+        margin-right: 20px;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 20;
+    }
+
+    .contactText2 {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 36px!important;
+        color: #FFFFFF;
+        z-index: 20;
+    }
+
+    .inputfields {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        color: #FFFFFF;
+        z-index: 50;
+    }
+
+    .yourName {
+        padding: 15px 25px;
+        gap: 10px;
+        width: 580px;
+        height: 40px;
+        background: #141D2F;
+        border: 1px solid #4B47FF;
+        border-radius: 10px;
+        color: #FFFFFF;
+        z-index: 20;
+        font-size: 20px;
+        font-family: 'Poppins';
+    }
+
+    .yourEmail {
+        padding: 15px 25px;
+        gap: 10px;
+        width: 580px;
+        height: 40px;
+        background: #141D2F;
+        border: 1px solid #4B47FF;
+        border-radius: 10px;
+        color: #FFFFFF;
+        z-index: 20;
+        font-size: 20px;
+        font-family: 'Poppins';
+    }
+
+    .yourMessage {
+        padding: 15px 25px;
+        gap: 10px;
+        width: 580px;
+        height: 162px;
+        background: #141D2F;
+        border: 1px solid #4B47FF;
+        border-radius: 10px;
+        color: #FFFFFF;
+        z-index: 20;
+        font-size: 20px;
+        font-family: 'Poppins';
+    }
+
+    ::placeholder {
+        color: #FFFFFF;
+    }
+
+    .btnSend {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 10px;
+        width: 376px;
+        background: #00BEE8;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-size: 30px!important;
         cursor: pointer;
         z-index: 20;
         // margin-left: 180px;

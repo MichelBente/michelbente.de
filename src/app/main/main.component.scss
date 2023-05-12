@@ -371,7 +371,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 60px;
+        font-size: 70px!important;
         color: #1bdc8296;
     }
 
@@ -379,7 +379,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 75px;
+        font-size: 85px!important;
         color: #FFFFFF;
     }
 
@@ -387,7 +387,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 49px;
+        font-size: 59px!important;
         color: #4B47FF;
     }
 
@@ -398,23 +398,102 @@
         align-items: center;
         padding: 15px 30px;
         gap: 10px;
-        width: 183px;
-        height: 49px;
+        width: 283px;
+        height: 89px;
         background: #00BEE8;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
         color: #FFFFFF;
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 26px;
+        font-size: 36px!important;
         cursor: pointer;
     }
 
     .iconline {
         margin-left: -560px;
+    }
+.iconset {
+    width: 60px;
+}
 
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-left: 40px;
     }
 
+    .myPicture {
+        width: 444px;
+        height: 450px;
+        z-index: 15;
+        margin-top: 150px;
+    }
+}
+
+@media (min-width: 2565px) {
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .myText {
+        padding-top: 100px;
+    }
+
+    .iam {
+        z-index: 6;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 60px!important;
+        color: #1bdc8296;
+    }
+
+    .myName {
+        z-index: 6;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 85px!important;
+        color: #FFFFFF;
+    }
+
+    .myJob {
+        z-index: 6;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 59px!important;
+        color: #4B47FF;
+    }
+
+    .letstalkbtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 10px;
+        width: 283px!important;
+        height: 89px!important;
+        background: #00BEE8;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 36px!important;
+        cursor: pointer;
+    }
+
+    .iconline {
+        margin-left: -1060px;
+    }
+.iconset {
+    width: 80px;
+}
     .icon-container {
         display: flex;
         justify-content: center;

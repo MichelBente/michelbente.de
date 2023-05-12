@@ -277,7 +277,7 @@
         height: 133px;
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 26px;
+        font-size: 28px!important;
         z-index: 18;
         color: #FFFFFF;
     }
@@ -289,6 +289,7 @@
         color: #FFFFFF;
         display: flex;
         flex-direction: column;
+        padding-top: 60px;
 
         .lightbulbpart {
             display: flex;
@@ -321,7 +322,7 @@
         .text2 {
             font-family: 'Poppins';
             font-weight: 400;
-            font-size: 26px;
+            font-size: 28px!important;
             z-index: 18;
             color: #FFFFFF;
             padding-left: 15px;
@@ -331,7 +332,7 @@
         .text3 {
             font-family: 'Poppins';
             font-weight: 400;
-            font-size: 26px;
+            font-size: 28px!important;
             z-index: 18;
             color: #FFFFFF;
         }
@@ -369,7 +370,7 @@
             height: 54px;
             font-family: 'Poppins';
             font-weight: 700;
-            font-size: 55px;
+            font-size: 65px;
             z-index: 18;
             color: #FFFFFF;
         }
@@ -385,15 +386,16 @@
     .text {
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 26px;
+        font-size: 36px!important;
         z-index: 18;
         color: #FFFFFF;
+        margin-bottom:0px;
     }
 
     .personal-stuff {
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 26px;
+        font-size: 36px!important;
         color: #FFFFFF;
         display: flex;
         flex-direction: column;
@@ -404,6 +406,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            margin-top: 80px;
            
         }
 
@@ -414,7 +417,7 @@
             justify-content: center;
             align-items: center;
             padding-top: 40px;
-            margin-left: -600px;
+            margin-left: 0px;
         }
 
         .imagepersonalstuff {
@@ -430,7 +433,7 @@
         .text2 {
             font-family: 'Poppins';
             font-weight: 400;
-            font-size: 26px;
+            font-size: 36px!important;
             z-index: 18;
             color: #FFFFFF;
             padding-left: 15px;
@@ -440,7 +443,7 @@
         .text3 {
             font-family: 'Poppins';
             font-weight: 400;
-            font-size: 26px;
+            font-size: 36px!important;
             z-index: 18;
             color: #FFFFFF;
         }

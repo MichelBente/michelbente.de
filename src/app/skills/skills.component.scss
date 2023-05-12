@@ -54,8 +54,8 @@
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 16px;
-    cursor:pointer;
-    text-decoration:none!important;
+    cursor: pointer;
+    text-decoration: none !important;
 }
 
 .letstalkbtn:hover {
@@ -112,13 +112,11 @@
     .skillList {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         gap: 20px;
-        width: 350px;
-        margin-left: -30px;
-
-
+        width: 330px;
+        margin-left: 0px;
 
         .skillicons {
             display: flex;
@@ -132,8 +130,7 @@
             justify-content: center;
             margin-top: 20px;
             margin-bottom: 20px;
-
-
+            flex-direction: column;
         }
 
         .skills {
@@ -153,7 +150,7 @@
         justify-content: center;
         align-items: center;
         padding-top: 60px;
-        text-decoration:none!important;
+        text-decoration: none !important;
         z-index: 200px;
     }
 
@@ -170,15 +167,15 @@
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 16px;
-        cursor:pointer;
-        text-decoration:none!important;
+        cursor: pointer;
+        text-decoration: none !important;
         z-index: 200;
     }
 
     .letstalkbtn:hover {
         transform: scale(1.2);
         background-color: #4B47FF;
-        text-decoration: none!important;
+        text-decoration: none !important;
         color: #1bdc8296;
         text-shadow: 1px solid rgba(255, 255, 255, 0.976);
     }
@@ -197,7 +194,7 @@
             font-size: 55px;
             z-index: 21;
             color: #FFFFFF;
-            justify-content: center;
+            justify-content: center;  
         }
 
         .header-text {
@@ -221,7 +218,7 @@
             z-index: 18;
             color: #FFFFFF;
             padding-top: 60px;
-            margin-left: -130px;
+            margin-left: -90px;
             width: 400px;
         }
     }
@@ -229,11 +226,11 @@
     .skillList {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         gap: 20px;
         width: 700px;
-        margin-left: -320px;
+        margin-left: -380px;
 
         .skillicons {
             display: flex;
@@ -246,6 +243,7 @@
             justify-content: center;
             margin-top: 20px;
             margin-bottom: 20px;
+            flex-direction: column;
         }
 
         .skills {
@@ -265,9 +263,9 @@
         align-items: center;
         padding-top: 60px;
         padding-bottom: 100px;
-        margin-left: -440px;
+        margin-left: -420px;
         cursor: pointer;
-        text-decoration:none!important;
+        text-decoration: none !important;
     }
 
     .letstalkbtn {
@@ -283,9 +281,8 @@
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 16px;
-        line-height: 120%;
-        cursor:pointer;
-        text-decoration:none!important;
+        cursor: pointer;
+        text-decoration: none !important;
     }
 
     .letstalkbtn:hover {
@@ -299,6 +296,131 @@
 
 
 @media (min-width: 1440px) {
+    .skills-section {
+        display: flex;
+        color: #FFFFFF;
+        z-index: 20;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .headline-skills {
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 55px;
+            z-index: 21;
+            color: #FFFFFF;
+            justify-content: center;
+            padding-left: 0px;
+            align-items: center;
+            gap: 520px;
+            padding-left: 40px;
+        }
+
+        .header-text {
+            padding-left: 0px;
+            font-size: 55px;
+            padding-bottom: 20px;
+        }
+
+        .blueline {
+            border: 4px solid #1CE6B6;
+            height: 0px;
+            width: 700px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+.textnskillcolumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    flex-direction: column;
+}
+        .text4 {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 26px;
+            z-index: 18;
+            color: #FFFFFF;
+            padding-bottom: 120px;
+            margin-left: -730px;
+            margin-top: 0px;
+        }
+    }
+
+    .skillList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 700px;
+        margin-left: 1050px;
+        margin-top: -400px;
+
+        .skillicons {
+            display: flex;
+            align-items: center;
+            gap: 35;
+            padding-right: 30px;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            flex-direction: column;
+        }
+
+        .skills {
+            width: 64px;
+            height: 17px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+            margin-top: 10px;
+        }
+    }
+
+    .buttonintouch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        text-decoration: none!important;
+    }
+
+    .letstalkbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 10px;
+        background: #00BEE8;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 26px;
+        cursor: pointer;
+        text-decoration: none !important;
+
+        .letstalkbtn:hover {
+            transform: scale(1.2);
+            background-color: #4B47FF;
+            text-decoration: none;
+            color: #1bdc8296;
+            text-shadow: 1px solid rgba(255, 255, 255, 0.976);
+        }
+    }
+}
+
+@media (min-height: 1366px) {
     .skills-section {
         display: flex;
         flex-direction: row;
@@ -326,7 +448,7 @@
             height: 0px;
             width: 700px;
             margin-top: 100px;
-            margin-left: 400px;
+            margin-left: 200px;
         }
 
         .text4 {
@@ -349,8 +471,8 @@
         justify-content: flex-start;
         align-items: center;
         gap: 20px;
-        width: 1200px;
-        margin-left: -820px;
+        width: 800px;
+        margin-left: -680px;
 
         .skillicons {
             display: flex;
@@ -362,6 +484,7 @@
             justify-content: center;
             margin-top: 20px;
             margin-bottom: 20px;
+            flex-direction: column;
         }
 
         .skills {
@@ -381,8 +504,8 @@
         align-items: center;
         margin-top: 100px;
         margin-right: 110px;
-        margin-left: -1150px;
-        text-decoration:none!important;
+        margin-left: -900px;
+        text-decoration: none !important;
     }
 
     .letstalkbtn {
@@ -401,8 +524,8 @@
         margin-left: 295px;
         margin-top: -80px;
         margin-bottom: 100px;
-        cursor:pointer;
-        text-decoration:none!important;
+        cursor: pointer;
+        text-decoration: none!important;
 
         .letstalkbtn:hover {
             transform: scale(1.2);
@@ -413,14 +536,15 @@
         }
     }
 }
+
 @media (min-width: 2565px) {
     .skills-section {
         display: flex;
-        flex-direction: row;
         color: #FFFFFF;
         z-index: 20;
-        justify-content: center;
-        margin-left: -350px;
+        margin-left: 0px;
+        align-items: center;
+        flex-direction: column;
 
         .headline-skills {
             font-family: 'Poppins';
@@ -428,15 +552,16 @@
             font-size: 55px;
             z-index: 21;
             color: #FFFFFF;
-            justify-content: center;
-            padding-left: 40px;
+            padding-left: 70px;
+            gap: 1400px;
         }
 
         .header-text {
             padding-left: 0px;
             font-size: 65px;
             padding-bottom: 20px;
-            margin-left: 220px;
+            margin-left: 0px;
+            margin-right: 0px;
         }
 
         .blueline {
@@ -444,7 +569,6 @@
             height: 0px;
             width: 700px;
             margin-top: 100px;
-            justify-content: flex-end;
         }
 
         .text4 {
@@ -455,11 +579,19 @@
             font-size: 36px;
             z-index: 18;
             color: #FFFFFF;
-            padding-top: 80px;
+            padding-top: 0px;
             padding-bottom: 30px;
-            margin-left: -460px;
+            margin-left: 1000px;
         }
     }
+
+.textnskillcolumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 660px;
+    margin-top: -100px;
+}
 
     .skillList {
         display: flex;
@@ -467,8 +599,9 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-        width: 1200px;
-        margin-right: 100px;
+        width: 1500px;
+        margin-right: 800px;
+        margin-top: -200px;
 
         .skillicons {
             display: flex;
@@ -476,16 +609,17 @@
             gap: 35;
             padding-right: 30px;
             flex-wrap: wrap;
-            padding-bottom: 20px;
+            padding-bottom: 40px;
             justify-content: center;
             margin-top: 20px;
             margin-bottom: 20px;
-            
+            flex-direction: column;
+            padding-top: 60px;
         }
 
         .skills {
-            width: 84px;
-            height: 37px;
+            width: 124px;
+            height: 57px;
             font-family: 'Poppins';
             font-weight: 700;
             font-size: 14px;
@@ -499,8 +633,9 @@
         justify-content: center;
         align-items: center;
         margin-top: 100px;
-        text-decoration:none!important;
-        margin-left: -100px;
+        text-decoration: none!important;
+        margin-left: 0px;
+        margin-top: -200px;
     }
 
     .letstalkbtn {
@@ -518,9 +653,10 @@
         font-size: 26px;
         margin-top: -80px;
         margin-bottom: 100px;
-        cursor:pointer;
-        text-decoration:none!important;
-        margin-left: -480px;
+        cursor: pointer;
+        text-decoration: none !important;
+        margin-left: -500px;
+        margin-top: 240px;
 
         .letstalkbtn:hover {
             transform: scale(1.2);
