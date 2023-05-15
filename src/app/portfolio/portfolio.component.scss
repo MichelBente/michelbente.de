@@ -712,3 +712,163 @@
     }
 
 }
+
+@media (min-width: 4096px) {
+    .portfolio-content {
+        display: flex;
+        color: #FFFFFF;
+        z-index: 20;
+        overflow-x: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio-headline {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 85px!important;
+        z-index: 21;
+        color: #FFFFFF;
+    }
+
+    .line3 {
+        padding-bottom: 10px;
+        padding-right: 810px;
+        margin-left: -2040px;
+    }
+
+    .textPortfolio {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 46px;
+        color: #FFFFFF;
+        width: 550px;
+        margin-left: -1205px;
+    }
+
+    .projectheadline {
+        width: 496px;
+        height: 42.82px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 62px;
+        text-align: center;
+        color: #4B47FF;
+        margin-bottom: 20px;
+    }
+
+    .languages {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 43px;
+        color: #00BEE8;
+    }
+
+    .projectDescription {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 36px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .retakemordor {
+        width: 900px;
+    }
+
+    .mockup1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        margin-top: 40px;
+        flex-direction: row;
+        gap: 800px;
+    }
+    .projectpic {
+        width: 900px;
+        height: 800px;
+    }
+
+    .mockuptext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mockupbtns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row!important;
+        margin-top: 380px;
+        gap: 20px;
+    }
+
+    .mockupbtns2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 340px;
+        gap: 20px;
+    }
+
+    .mockup2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 800px!important;
+        cursor: pointer;
+        margin-top: 40px;
+        flex-direction: row-reverse;
+    }
+
+    .livetestBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 10px;
+        width: 252px;
+        height: 88px;
+        background: #4B47FF;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-size: 23px;
+        cursor: pointer;
+    }
+
+    .livetestBtn:hover {
+        transform: scale(1.2);
+        background-color: #141D2F;
+        text-decoration: none;
+        color: #1bdc8296;
+        text-shadow: 1px solid rgba(255, 255, 255, 0.976);
+    }
+
+    .gitHubBtn {
+        width: 77px;
+        height: 28px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 23px;
+        color: #F5F5F5;
+        width: 252px;
+        height: 88px;
+        border-radius: 10px;
+        background-color: #141D2F;
+        cursor: pointer;
+    
+    .gitHubBtn:hover {
+        transform: scale(1.2);
+        background-color: #00BEE8;
+        text-decoration: none;
+        color: #1bdc8296;
+        text-shadow: 1px solid rgba(255, 255, 255, 0.976);
+    }
+    }
+}
+

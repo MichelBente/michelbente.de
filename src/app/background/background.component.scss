@@ -587,3 +587,127 @@ overflow:hidden;
         z-index: 10;
     }
 }
+
+@media (min-width: 4096px) { 
+    .background {
+        z-index: 1;
+    }
+    
+    .blurtop {
+        position: absolute;
+        height: 289.95px;
+        left: -20%;
+        right: 0px;
+        top: 159px;
+        transform: rotate(-10deg);
+        width: 1200px !important;
+        height: 1000px !important;
+        z-index: 1;
+    }
+    
+    .blurtop1 {
+        position: absolute;
+        height: 289.95px;
+        left: 300px;
+        right: 0px;
+        top: -30px;
+        transform: rotate(45deg);
+        width: 1200px !important;
+        height: 1000px !important;
+        z-index: 1;
+    }
+    
+    .blurtop2 {
+        position: absolute;
+        left: -100px;
+        right: 0px;
+        top: 159px;
+        transform: rotate(45deg);
+        width: 800px !important;
+        height: 600px !important;
+        z-index: 1;
+    }
+    
+    .blurbottom {
+        position: absolute;
+        height: 273.53px;
+        left: 70.95%;
+        right: -61.05%;
+        top: 150.5px;
+        width: 1200px !important;
+        height: 800px !important;
+        z-index: 1;
+    }
+    
+    .blurbottom2 {
+        position: absolute;
+        left: -27.95%;
+        right: 81.05%;
+        top: 850.5px;
+        width: 1200px !important;
+        height: 800px !important;
+        z-index: 1;
+    }
+    
+    .blurbottom3 {
+        position: absolute;
+        height: 273.53px;
+        left: 41%;
+        right: 81.05%;
+        top: 990.5px;
+        transform: rotate(180deg);
+        width: 800px !important;
+        height: 600px !important;
+        z-index: 1;
+    }
+    
+    .blurbottom4 {
+        position: absolute;
+        height: 273.53px;
+        left: -45.95%;
+        right: 0.05%;
+        top: 3220px;
+        transform: rotate(0deg);
+        width: 2400px !important;
+        height: 2000px !important;
+        z-index: 1;
+    }
+    
+    .blurbottom5 {
+        position: absolute;
+        height: 273.53px;
+        left: 70.95%;
+        right: 0.05%;
+        top: 4620px;
+        transform: rotate(0deg);
+        width: 3240px !important;
+        height: 3000px !important;
+        z-index: 1;
+    }
+    
+    .blurbottom6 {
+        position: absolute;
+        height: 273.53px;
+        left: -30.95%;
+        right: 0.05%;
+        top: 3650px;
+        transform: rotate(0deg);
+        width: 840px !important;
+        height: 800px !important;
+        z-index: 1;
+    }
+    
+    .shapes {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 1340.5px;
+        z-index: 55!important;
+        width: 4096px;
+        height: 400px;
+        z-index: 10;
+    }
+}
+
+
+

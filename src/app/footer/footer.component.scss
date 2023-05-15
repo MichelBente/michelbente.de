@@ -301,3 +301,66 @@ footer-section {
         color: #fbff05;
     }
 }
+
+
+@media (min-height: 4096px) {
+    .footer-section {
+        display: flex;
+        color: #FFFFFF;
+        z-index: 90;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-top: 6px solid #05A9E8;
+
+    }
+
+
+    .logofooter {
+        width: 900px!important;
+        height: 900px!important;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.8);
+    }
+
+    .cc {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 53px;
+        color: #FFFFFF;
+
+    }
+
+    .icon-container2 {
+        
+        margin-left: 20px;
+    }
+
+    .iconset2 {
+        gap: 30px;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .iconset2:hover {
+        transform: scale(1.4);
+    }
+
+    .impressum {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 26px;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .impressum:hover {
+        transform: scale(1,2);
+        text-decoration: underline;
+        color: #fbff05;
+    }
+}

@@ -450,3 +450,95 @@
     }
 
 }
+
+@media (min-width: 4096px) {
+    .headline-section {
+        z-index: 17;
+        color: #FFFFFF;
+        display: flex;
+
+        .headline-aboutme {
+            width: 626px;
+            height: 54px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 85px;
+            z-index: 18;
+            color: #FFFFFF;
+        }
+    }
+
+    .headsec {
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .text {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 36px!important;
+        z-index: 18;
+        color: #FFFFFF;
+        margin-bottom:0px;
+    }
+
+    .personal-stuff {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 36px!important;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+
+        .lightbulbpart {
+            display: flex;
+            gap: 100px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+           
+        }
+
+        .puzzlepart {
+            display: flex;
+            gap: 100px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 40px;
+            margin-left: 0px;
+        }
+
+        .imagepersonalstuff {
+            width: 54.47px;
+            height: 70px;
+        }
+
+        .imagepersonalstuff2 {
+            width: 70px;
+            height: 70px;
+        }
+
+        .text2 {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 36px!important;
+            z-index: 18;
+            color: #FFFFFF;
+            padding-left: 15px;
+            flex-wrap: wrap;
+        }
+
+        .text3 {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 36px!important;
+            z-index: 18;
+            color: #FFFFFF;
+        }
+    }
+
+}
