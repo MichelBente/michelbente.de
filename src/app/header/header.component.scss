@@ -8,7 +8,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 25px 20px;
-        z-index: -1;
+        z-index: 999;
 
         .logo {
             width: 150px!important;
@@ -47,13 +47,14 @@
 
         .burger {
             position: relative;
-            left: 80px;
-            right:30px;
+            // left: 80px;
+            // right:30px;
             width: 40px;
             height: 30px;
             background: transparent;
             cursor: pointer;
             display: block;
+            z-index: 999;
         }
 
         .burger input {
@@ -65,7 +66,7 @@
             position: absolute;
             height: 3px;
             width: 100%;
-            background: var(--white);
+            background:#FFFFFF;
             border-radius: 9px;
             opacity: 1;
             left: 0;
@@ -114,7 +115,7 @@
             a {
                 font-size: 23px;
                 text-decoration: none;
-                color: var(--white);
+                color: #FFFFFF;
             }
         }
 
@@ -130,7 +131,7 @@
                 height: 3px;
                 bottom: 0;
                 left: 0;
-                background-color: var(--blue);
+                background-color:#4b47ff;
                 transform-origin: bottom right;
                 transition: transform 0.25s ease-out;
             }
@@ -177,8 +178,8 @@
     .links {
         display: none !important;
 
-        &.isOpen {
-            background-color: var(--darkblue);
+        &.isMenuOpen {
+            background-color:#141D2F;
             display: flex !important;
             height: calc(100vh - 70px);
             width: 100%;

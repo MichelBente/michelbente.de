@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class PortfolioComponent {
   retakemordor = "https://github.com/MichelBente/RETAKE-MORDOR";
-  join = "https://github.com/FlorianIsenberg/join";
+  join = "https://github.com/MichelBente/New-Join";
   projectMordor = "http://michelbente.com/projects/Retake_Mordor/index.html";
-  projectJoin = "https://gruppe-07i.developerakademie.net/index.html";
+  projectJoin = "https://michelbente.com/projects/join-main/join-main/index.html";
   openMordor() {
     window.open(this.retakemordor, '_blank');
   };

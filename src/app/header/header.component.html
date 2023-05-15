@@ -1,6 +1,6 @@
 <header class="header">
     <img class="logo" src="./assets/img/icons/logodarkblue-remove.png">
-    <a href="#home"><img class="burger" src="./assets/img/icons/icon/icon/menu/burger.png"></a>
+    <!-- <a href="#home"><img class="burger" src="./assets/img/icons/icon/icon/menu/burger.png"></a> -->
    
 
         <label class="burger" for="burger">
@@ -10,7 +10,7 @@
             <span></span>
         </label>
 
-        <div class="links" [class.isOpen]="isMenuOpen">
+        <div class="links" [class.isMenuOpen]="isMenuOpen">
             <a class="hover-underline-animation" href="#aboutMe" (click)="closeMenu()">About me</a>
             <a class="hover-underline-animation" href="#skills" (click)="closeMenu()">Skills</a>
             <a class="hover-underline-animation" href="#portfolio" (click)="closeMenu()">Portfolio</a>
