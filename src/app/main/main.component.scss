@@ -11,6 +11,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        a {
+            text-decoration: none;
+        }
     }
 
     .iam {
@@ -63,21 +67,23 @@
         font-size: 16px;
         cursor: pointer;
         margin-top: 80px;
-        text-decoration: none!important;
+        text-decoration: none !important;
+
+
+        &:hover {
+            transform: scale(1.2);
+            background-color: #4B47FF;
+            text-decoration: none !important;
+            color: #ffffff;
+            text-shadow: 1px solid rgba(255, 255, 255, 0.976);
+        }
     }
 
-    .letstalkbtn:hover {
-        transform: scale(1.2);
-        background-color: #4B47FF;
-        text-decoration: none!important;
-        color: #ffffff;
-        text-shadow: 1px solid rgba(255, 255, 255, 0.976);
-    }
     .scrollDownImg {
         transform: rotate(90deg);
-        width:20px;
+        width: 20px;
         height: 20px;
-        margin-left:-35px;
+        margin-left: -35px;
     }
 }
 
@@ -88,7 +94,7 @@
 }
 
 .iconset:hover {
-    transform: scale(1.2)!important;
+    transform: scale(1.2) !important;
 }
 
 
@@ -368,7 +374,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 70px!important;
+        font-size: 70px !important;
         color: #1bdc8296;
     }
 
@@ -376,7 +382,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 85px!important;
+        font-size: 85px !important;
         color: #FFFFFF;
     }
 
@@ -384,7 +390,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 59px!important;
+        font-size: 59px !important;
         color: #4B47FF;
     }
 
@@ -403,16 +409,17 @@
         color: #FFFFFF;
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 36px!important;
+        font-size: 36px !important;
         cursor: pointer;
     }
 
     .iconline {
         margin-left: -560px;
     }
-.iconset {
-    width: 60px;
-}
+
+    .iconset {
+        width: 60px;
+    }
 
     .icon-container {
         display: flex;
@@ -428,9 +435,88 @@
         z-index: 15;
         margin-top: 150px;
     }
-.scrollDown {
-    margin-bottom: -40px;
+
+    .scrollDown {
+        margin-bottom: -40px;
+    }
 }
+@media (min-width: 1080px) {
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .myText {
+        padding-top: 100px;
+    }
+
+    .iam {
+        z-index: 6;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 60px !important;
+        color: #1bdc8296;
+    }
+
+    .myName {
+        z-index: 6;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 85px !important;
+        color: #FFFFFF;
+    }
+
+    .myJob {
+        z-index: 6;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 59px !important;
+        color: #4B47FF;
+    }
+
+    .letstalkbtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        gap: 10px;
+        width: 283px !important;
+        height: 89px !important;
+        background: #00BEE8;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 36px !important;
+        cursor: pointer;
+    }
+
+    .iconline {
+        margin-left: -740px;
+    }
+
+    .iconset {
+        width: 80px;
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-left: 40px;
+    }
+
+    .myPicture {
+        width: 444px;
+        height: 450px;
+        z-index: 15;
+        margin-top: 150px;
+    }
 }
 
 @media (min-width: 2565px) {
@@ -449,7 +535,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 60px!important;
+        font-size: 60px !important;
         color: #1bdc8296;
     }
 
@@ -457,7 +543,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 85px!important;
+        font-size: 85px !important;
         color: #FFFFFF;
     }
 
@@ -465,7 +551,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 59px!important;
+        font-size: 59px !important;
         color: #4B47FF;
     }
 
@@ -476,24 +562,26 @@
         align-items: center;
         padding: 15px 30px;
         gap: 10px;
-        width: 283px!important;
-        height: 89px!important;
+        width: 283px !important;
+        height: 89px !important;
         background: #00BEE8;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
         color: #FFFFFF;
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 36px!important;
+        font-size: 36px !important;
         cursor: pointer;
     }
 
     .iconline {
         margin-left: -1060px;
     }
-.iconset {
-    width: 80px;
-}
+
+    .iconset {
+        width: 80px;
+    }
+
     .icon-container {
         display: flex;
         justify-content: center;
@@ -526,7 +614,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 60px!important;
+        font-size: 60px !important;
         color: #1bdc8296;
     }
 
@@ -534,7 +622,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 85px!important;
+        font-size: 85px !important;
         color: #FFFFFF;
     }
 
@@ -542,7 +630,7 @@
         z-index: 6;
         font-family: 'Poppins';
         font-weight: 700;
-        font-size: 59px!important;
+        font-size: 59px !important;
         color: #4B47FF;
     }
 
@@ -553,25 +641,27 @@
         align-items: center;
         padding: 15px 30px;
         gap: 10px;
-        width: 283px!important;
-        height: 89px!important;
+        width: 283px !important;
+        height: 89px !important;
         background: #00BEE8;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
         color: #FFFFFF;
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 36px!important;
+        font-size: 36px !important;
         cursor: pointer;
     }
 
     .iconline {
         margin-left: -1820px;
     }
-.iconset {
-    width: 80px;
-    gap: 100px;
-}
+
+    .iconset {
+        width: 80px;
+        gap: 100px;
+    }
+
     .icon-container {
         display: flex;
         justify-content: center;
